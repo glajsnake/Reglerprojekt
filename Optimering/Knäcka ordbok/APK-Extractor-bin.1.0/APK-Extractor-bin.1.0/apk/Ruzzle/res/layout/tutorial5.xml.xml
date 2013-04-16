@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ layout_gravity="1"
+ orientation="1"
+ id="2131099741"
+ layout_width="-1"
+ layout_height="-1">
+
+
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099730"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165449"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+
+<Button
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131100041"
+ background="2130837680"
+ layout_width="-2"
+ layout_height="8961"
+ layout_marginRight="2561"
+ text="2131165321"/>
+</FrameLayout>
+
+<RelativeLayout
+ paddingTop="25601"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="0"
+ id="2131100042"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="12801">
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+<ImageView
+ id="2131100043"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ src="2130837646"
+ layout_toRightOf="2131100043"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ id="2131100044"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165265"
+ layout_below="2131100043"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>
+
+
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+<ImageView
+ id="2131100045"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ src="2130837824"
+ layout_toRightOf="2131100045"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ id="2131100046"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165266"
+ layout_below="2131100045"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>
+</LinearLayout>
+
+
+
+<LinearLayout
+ orientation="0"
+ id="2131100047"
+ layout_width="-1"
+ layout_height="-2"
+ layout_below="2131100042">
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+<ImageView
+ id="2131100048"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ src="2130837647"
+ layout_toRightOf="2131100048"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ id="2131100049"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165267"
+ layout_below="2131100048"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>
+
+
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+<ImageView
+ id="2131100050"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ src="2130837835"
+ layout_toRightOf="2131100050"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ id="2131100051"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165268"
+ layout_below="2131100050"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>
+</LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+<TextView
+ textSize="4609"
+ textColor="2131230727"
+ gravity="1"
+ layout_gravity="81"
+ id="2131099659"
+ background="2130837834"
+ padding="2561"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ layout_marginBottom="10241"
+ text="2131165264"
+ layout_alignParentBottom="-1"/>
+</RelativeLayout>

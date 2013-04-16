@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099862"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ id="2131099863"
+ layout_width="-2"
+ layout_height="-2"
+ layout_centerInParent="-1">
+
+<TextView
+ textSize="10241"
+ textColor="-1"
+ gravity="17"
+ id="2131099864"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165457"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="7681"
+ textColor="-1"
+ gravity="17"
+ id="2131099865"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="10241"
+ layout_below="2131099864"
+ layout_centerHorizontal="-1"/>
+
+<ProgressBar
+ layout_gravity="17"
+ id="2131099866"
+ layout_width="12801"
+ layout_height="12801"
+ layout_marginTop="10241"
+ layout_below="2131099865"
+ layout_centerHorizontal="-1"
+ style="?android:attr/progressBarStyleLarge"/>
+</RelativeLayout>
+</RelativeLayout>

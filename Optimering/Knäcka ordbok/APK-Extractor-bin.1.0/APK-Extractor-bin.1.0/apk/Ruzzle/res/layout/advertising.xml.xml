@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099709"
+ layout_width="-1"
+ layout_height="-1">
+
+
+<TextView
+ textSize="10241"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099710"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="5121"
+ text="2131165423"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+
+<LinearLayout
+ orientation="1"
+ id="2131099711"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginTop="3841"
+ layout_marginRight="5121"
+ layout_below="2131099710"
+ layout_centerHorizontal="-1">
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165359"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ id="2131099712"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165308"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ id="2131099713"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165288"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ id="2131099714"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165419"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165459"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+
+<TextView
+ textSize="6657"
+ textColor="2131230726"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165460"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ drawableLeft="2130837612"
+ drawablePadding="1281"/>
+</LinearLayout>
+
+<Button
+ textSize="6657"
+ textColor="2131230726"
+ state_enabled="-1"
+ id="2131099715"
+ background="2130837601"
+ layout_width="40961"
+ layout_height="-2"
+ layout_marginTop="3841"
+ layout_marginRight="2561"
+ text="2131165422"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099711"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>

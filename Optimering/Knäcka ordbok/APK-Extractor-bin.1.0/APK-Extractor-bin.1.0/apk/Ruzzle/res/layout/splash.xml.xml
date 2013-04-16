@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ background="2130837732"
+ layout_width="-1"
+ layout_height="-1">
+
+<ImageView
+ layout_width="-1"
+ layout_height="-2"
+ src="2130837733"
+ scaleType="3"
+ layout_centerInParent="-1"/>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ gravity="5"
+ id="2131099754"
+ background="2130837641"
+ layout_width="-1"
+ layout_height="12289">
+<Button
+ textSize="3586"
+ textColor="-1"
+ id="2131099755"
+ background="2130837642"
+ paddingLeft="1281"
+ paddingRight="1281"
+ layout_width="-2"
+ layout_height="12289"
+ minWidth="14081"
+ shadowColor="1711276032"
+ shadowDx="1065353216"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_alignParentRight="-1"/>
+<LinearLayout
+ id="2131099756"
+ background="1073741824"
+ layout_width="257"
+ layout_height="-1"
+ layout_alignLeft="2131099755"/>
+<TextView
+ textSize="5634"
+ textColor="-1"
+ ellipsize="3"
+ gravity="19"
+ id="2131099751"
+ layout_width="-1"
+ layout_height="-1"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ scaleType="5"
+ singleLine="-1"
+ shadowColor="1711276032"
+ shadowDx="1065353216"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_toLeftOf="2131099756"/>
+</RelativeLayout>

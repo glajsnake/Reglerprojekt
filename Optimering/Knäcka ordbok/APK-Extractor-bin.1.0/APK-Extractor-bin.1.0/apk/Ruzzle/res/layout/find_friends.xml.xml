@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ layout_gravity="1"
+ orientation="1"
+ id="2131099776"
+ nextFocusDown="2131099777"
+ layout_width="-1"
+ layout_height="-1">
+
+
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099730"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165332"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="1281">
+
+<EditText
+ id="2131099777"
+ focusable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="1281"
+ hint="2131165455"
+ ems="10"
+ singleLine="-1"
+ layout_weight="1065353216"
+ imeOptions="3"/>
+</EditText>
+
+<ImageButton
+ id="2131099778"
+ layout_width="-2"
+ layout_height="-1"
+ src="17301583"/>
+</LinearLayout>
+
+<TextView
+ textSize="4609"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099779"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="10241"
+ text="Could not find user 'username'"/>
+
+<FrameLayout
+ id="2131099780"
+ padding="2"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginTop="2561"
+ layout_marginRight="2561">
+
+
+<ImageView
+ id="2131099666"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837709"
+ scaleType="1"
+ adjustViewBounds="-1"/>
+
+<LinearLayout
+ orientation="0"
+ id="2131099781"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ id="2131099782"
+ layout_width="-2"
+ layout_height="-2">
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099667"
+ padding="1793"
+ layout_width="15361"
+ layout_height="15361"
+ src="2130837644"/>
+<ImageView
+ id="2131099783"
+ visibility="2"
+ layout_width="3841"
+ layout_height="3841"
+ layout_marginLeft="1281"
+ layout_marginTop="1281"
+ src="2130837649"
+ scaleType="1"/>
+</RelativeLayout>
+
+
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<TextView
+ textSize="4609"
+ textColor="2131230727"
+ id="2131099732"
+ layout_width="-2"
+ layout_height="-2"
+ text="Username"
+ singleLine="-1"/>
+</LinearLayout>
+</LinearLayout>
+
+<FrameLayout
+ layout_gravity="21"
+ id="2131099784"
+ paddingRight="2561"
+ layout_width="-2"
+ layout_height="-2">
+
+<Button
+ textSize="3841"
+ textColor="2131230737"
+ id="2131099772"
+ background="2130837604"
+ layout_width="-2"
+ layout_height="8961"
+ text="2131165307"/>
+</FrameLayout>
+</FrameLayout>

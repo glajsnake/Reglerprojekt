@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ background="-1"
+ layout_width="-1"
+ layout_height="-1">
+
+<include
+ layout="@layout/com_facebook_picker_title_bar_stub"/>
+<ListView
+ id="2131099744"
+ scrollbars="512"
+ layout_width="-1"
+ layout_height="-1"
+ listSelector="2130837633"
+ cacheColorHint="-1"
+ divider="2130837621"
+ fastScrollEnabled="-1"/>
+
+<ProgressBar
+ id="2131099745"
+ visibility="1"
+ layout_width="-2"
+ layout_height="-2"
+ indeterminate="-1"
+ layout_centerInParent="-1"
+ style="@android:style/Widget.ProgressBar"/>
+</RelativeLayout>

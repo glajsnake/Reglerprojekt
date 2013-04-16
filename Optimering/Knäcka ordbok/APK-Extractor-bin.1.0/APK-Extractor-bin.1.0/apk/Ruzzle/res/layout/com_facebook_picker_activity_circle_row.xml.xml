@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ layout_width="-1"
+ layout_height="12801">
+
+
+<ProgressBar
+ id="2131099747"
+ visibility="0"
+ layout_width="-2"
+ layout_height="12801"
+ indeterminate="-1"
+ indeterminateOnly="-1"
+ layout_centerInParent="-1"
+ style="@android:style/Widget.ProgressBar.Small"/>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099986"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165395"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<ListView
+ id="2131099987"
+ paddingLeft="2561"
+ paddingTop="2561"
+ paddingRight="2561"
+ paddingBottom="2561"
+ scrollbars="0"
+ fadingEdge="8192"
+ layout_width="-1"
+ layout_height="-2"
+ cacheColorHint="0"
+ divider="0"
+ dividerHeight="1"/>
+</LinearLayout>

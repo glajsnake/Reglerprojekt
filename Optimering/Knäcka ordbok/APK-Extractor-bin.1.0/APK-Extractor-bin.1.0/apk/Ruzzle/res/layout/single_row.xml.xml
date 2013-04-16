@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099769"
+ background="2130837724"
+ padding="2"
+ clickable="-1"
+ addStatesFromChildren="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startPreviewActivity">
+
+
+
+<FrameLayout
+ paddingLeft="513"
+ paddingTop="1793"
+ layout_width="15361"
+ layout_height="15361"
+ layout_marginRight="769">
+<ImageView
+ id="2131099667"
+ paddingLeft="1281"
+ paddingRight="1281"
+ paddingBottom="1281"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837644"/>
+<TextView
+ textSize="3585"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099812"
+ background="2130837608"
+ paddingRight="257"
+ paddingBottom="1025"
+ clickable="0"
+ layout_width="-2"
+ layout_height="-2"
+ text="1"/>
+</FrameLayout>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<TextView
+ textSize="4609"
+ textColor="2130837598"
+ id="2131099770"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="Playing with X"
+ singleLine="-1"/>
+
+<TextView
+ id="2131099771"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="Ready to play round Y"/>
+</LinearLayout>
+
+
+<TextView
+ textColor="2131230737"
+ gravity="17"
+ layout_gravity="17"
+ id="2131099977"
+ background="2130837668"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="10241"
+ text="0 h"/>
+</LinearLayout>

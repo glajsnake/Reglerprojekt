@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+ shape="0">
+<gradient
+ startColor="-11045707"
+ endColor="-13874808"
+ type="1"
+ gradientRadius="1140293632"/>
+</shape>

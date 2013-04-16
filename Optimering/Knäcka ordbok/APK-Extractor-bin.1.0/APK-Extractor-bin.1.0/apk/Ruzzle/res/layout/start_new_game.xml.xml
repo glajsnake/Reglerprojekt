@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099657"
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801"
+ text="2131165355"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+
+<ScrollView
+ id="2131099665"
+ paddingLeft="2561"
+ paddingRight="2561"
+ scrollbars="0"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ id="2131100001"
+ background="2130837729"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ text="2131165616"
+ style="@style/sectionHeaderText"/>
+
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="0"
+ id="2131100002"
+ background="2130837710"
+ paddingLeft="1"
+ paddingTop="1"
+ paddingRight="1"
+ paddingBottom="1"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startMoreGamesActivity">
+
+<RelativeLayout
+ layout_width="20481"
+ layout_height="15361">
+
+<ImageView
+ id="2131099979"
+ layout_width="17921"
+ layout_height="-1"
+ src="2130837698"
+ layout_alignParentRight="-1"/>
+
+<TextView
+ textSize="3585"
+ textColor="2131230726"
+ gravity="17"
+ id="2131100003"
+ background="2130837608"
+ paddingRight="257"
+ paddingBottom="1025"
+ visibility="2"
+ clickable="0"
+ layout_width="-2"
+ layout_height="-2"
+ text="1"/>
+</RelativeLayout>
+
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ paddingLeft="1281"
+ paddingRight="2561"
+ duplicateParentState="-1"
+ layout_width="-1"
+ layout_height="-2">
+
+
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="80"
+ id="2131099730"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165634"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131100004"
+ duplicateParentState="-1"
+ text="2131165619"
+ layout_weight="1065353216"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+</LinearLayout>
+
+<TextView
+ id="2131099677"
+ background="2130837729"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ text="2131165338"
+ style="@style/sectionHeaderText"/>
+
+<LinearLayout
+ id="2131100005"
+ background="2130837711"
+ paddingLeft="2561"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startSelectLanguageActivity">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="19"
+ id="2131099725"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-1"
+ text="2131165351"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textAppearance="16842817"
+ textColor="2131230728"
+ gravity="21"
+ layout_gravity="5"
+ id="2131100006"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-1"
+ layout_marginRight="5121"
+ text="2131165404"
+ layout_weight="1065353216"/>
+</LinearLayout>
+
+<TextView
+ id="2131099677"
+ background="2130837729"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ text="2131165356"
+ style="@style/sectionHeaderText"/>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ id="2131100007"
+ background="2130837724"
+ paddingLeft="2561"
+ paddingRight="2561"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startChallengeFriendActivity">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="80"
+ id="2131099730"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165335"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131099728"
+ duplicateParentState="-1"
+ text="2131165314"
+ layout_weight="1065353216"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<LinearLayout
+ orientation="1"
+ background="2130837718"
+ paddingLeft="2561"
+ paddingRight="2561"
+ visibility="0"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startFaceBookFriendsActivity">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="80"
+ id="2131100008"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165495"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131100009"
+ duplicateParentState="-1"
+ text="2131165496"
+ layout_weight="1065353216"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ id="2131100010"
+ background="2130837717"
+ paddingLeft="2561"
+ paddingRight="2561"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="inviteRandomOpponent">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="80"
+ id="2131099684"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165375"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131099685"
+ duplicateParentState="-1"
+ text="2131165331"
+ layout_weight="1065353216"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ id="2131100011"
+ background="2130837713"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startGameActivity">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="80"
+ id="2131099681"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165546"
+ layout_weight="1065353216"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131100012"
+ duplicateParentState="-1"
+ text="2131165547"
+ layout_weight="1065353216"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="16"
+ id="2131100013"
+ background="2130837711"
+ paddingLeft="2561"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="5121"
+ text="2131165332"
+ onClick="startFindFriendsActivity"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ gravity="16"
+ id="2131100014"
+ background="2130837711"
+ paddingLeft="2561"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="5121"
+ text="2131165422"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099803"
+ background="2131230748"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textSize="11521"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="17"
+ id="2131099804"
+ layout_width="-1"
+ layout_height="12801"
+ text="Time's Up!"
+ maxLines="1"/>
+
+<TextView
+ textSize="3841"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="17"
+ id="2131099805"
+ layout_width="-1"
+ layout_height="25601"
+ text="You have found 10 out of 100 words!!!"
+ maxLines="1"/>
+<ProgressBar
+ layout_gravity="17"
+ layout_width="12801"
+ layout_height="12801"
+ indeterminateOnly="-1"
+ style="@android:style/Widget.ProgressBar.Small"/>
+</LinearLayout>
+</LinearLayout>

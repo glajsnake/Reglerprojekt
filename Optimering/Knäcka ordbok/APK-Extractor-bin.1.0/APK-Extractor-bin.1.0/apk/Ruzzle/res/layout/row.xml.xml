@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099769"
+ background="2130837714"
+ padding="1"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="startPreviewActivity">
+
+<RelativeLayout
+ layout_width="15361"
+ layout_height="15361"
+ layout_marginRight="769">
+
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099667"
+ padding="1281"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837644"/>
+
+<ImageView
+ id="2131099783"
+ layout_width="3841"
+ layout_height="3841"
+ layout_marginLeft="1280"
+ src="2130837649"
+ scaleType="1"/>
+
+<TextView
+ textSize="3585"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099812"
+ background="2130837608"
+ paddingRight="257"
+ paddingBottom="1025"
+ visibility="2"
+ clickable="0"
+ layout_width="-2"
+ layout_height="-2"
+ text="1"/>
+</RelativeLayout>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2">
+
+<TextView
+ textSize="4609"
+ textColor="2130837598"
+ id="2131099770"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="Playing with X"
+ singleLine="-1"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ id="2131099771"
+ duplicateParentState="-1"
+ text="Ready to play round Y"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<RelativeLayout
+ duplicateParentState="-1"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textColor="2131230737"
+ gravity="17"
+ id="2131099977"
+ background="2130837668"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="6401"
+ text="0 h"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"/>
+</RelativeLayout>
+</LinearLayout>

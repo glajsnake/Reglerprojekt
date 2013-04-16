@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099656"
+ background="2130837589"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ id="2131099988"
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801"
+ layout_alignParentTop="-1">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099989"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165396"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<GridView
+ id="2131099990"
+ background="2130837755"
+ padding="2561"
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="2561"
+ listSelector="0"
+ scrollingCache="-1"
+ horizontalSpacing="1"
+ verticalSpacing="2561"
+ numColumns="5"
+ layout_below="2131099988"
+ layout_centerVertical="-1"/>
+</RelativeLayout>

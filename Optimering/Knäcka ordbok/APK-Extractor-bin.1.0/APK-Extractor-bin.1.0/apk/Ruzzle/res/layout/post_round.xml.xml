@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099799"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="8961"
+ textColor="-1"
+ id="2131099927"
+ layout_width="-2"
+ layout_height="-2"
+ layout_centerInParent="-1"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ gravity="16"
+ id="2131099928"
+ background="2130837680"
+ layout_width="-2"
+ layout_height="8961"
+ layout_marginRight="2561"
+ text="2131165321"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"
+ onClick="leavePostGame"/>
+</RelativeLayout>
+
+<ScrollView
+ layout_width="-1"
+ layout_height="-1">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-2">
+
+<RelativeLayout
+ id="2131099929"
+ background="2130837706"
+ paddingTop="1"
+ paddingBottom="1281"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginTop="1281"
+ layout_marginRight="2561"
+ layout_marginBottom="-511">
+
+<RelativeLayout
+ id="2131099930"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561">
+
+<RelativeLayout
+ id="2131099931"
+ layout_width="-1"
+ layout_height="-2">
+
+<include
+ id="2131099932"
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="769"
+ layout="@layout/post_round_normal_game_header"/>
+</RelativeLayout>
+
+<RelativeLayout
+ id="2131099933"
+ layout_width="-1"
+ layout_height="-2">
+
+<include
+ id="2131099932"
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="769"
+ layout="@layout/post_round_all_word_header"/>
+</RelativeLayout>
+
+<RelativeLayout
+ id="2131099934"
+ layout_width="-1"
+ layout_height="-2">
+
+<include
+ id="2131099932"
+ layout_width="-1"
+ layout_height="-2"
+ layout_margin="769"
+ layout="@layout/post_round_practice_header"/>
+</RelativeLayout>
+</RelativeLayout>
+
+<FrameLayout
+ id="2131099935"
+ paddingLeft="2561"
+ paddingRight="2561"
+ layout_width="-1"
+ layout_height="51201"
+ layout_marginTop="769"
+ layout_marginBottom="1281"
+ layout_below="2131099930">
+
+<se.maginteractive.rumble.view.WheelView
+ id="2131099936"
+ layout_width="-1"
+ layout_height="-1"/>
+
+<ImageView
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837728"
+ scaleType="1"/>
+</FrameLayout>
+
+<LinearLayout
+ orientation="0"
+ id="2131099937"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="1281"
+ layout_marginRight="2561"
+ layout_below="2131099935">
+
+<GridView
+ id="2131099938"
+ layout_width="29441"
+ layout_height="29441"
+ horizontalSpacing="513"
+ verticalSpacing="513"
+ numColumns="4"
+ isScrollContainer="0"/>
+
+<RelativeLayout
+ layout_gravity="16"
+ id="2131099939"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="1281">
+
+<TextView
+ textSize="6145"
+ textStyle="1"
+ textColor="2131230727"
+ id="2131099940"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="769"
+ layout_marginBottom="513"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230738"
+ id="2131099941"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="513"
+ layout_below="2131099940"/>
+
+<TextView
+ textSize="4097"
+ textColor="2131230738"
+ id="2131099942"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="513"
+ layout_below="2131099941"/>
+
+<TextView
+ textSize="4609"
+ textStyle="1"
+ textColor="2131230727"
+ id="2131099943"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ layout_below="2131099942"
+ layout_alignParentLeft="-1"/>
+</RelativeLayout>
+</LinearLayout>
+</RelativeLayout>
+
+<LinearLayout
+ orientation="0"
+ id="2131099944"
+ background="2130837690"
+ visibility="0"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ layout_marginBottom="1281">
+
+<TextView
+ textSize="5121"
+ textColor="2131230737"
+ gravity="17"
+ id="2131099945"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-1"
+ layout_weight="1065353216"
+ onClick="switchToFoundWords"/>
+
+<TextView
+ textSize="5121"
+ textColor="2131230737"
+ gravity="17"
+ id="2131099946"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-1"
+ layout_weight="1065353216"
+ onClick="switchToAllWords"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

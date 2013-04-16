@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ layout_gravity="16"
+ orientation="1"
+ id="2131099741"
+ layout_width="-1"
+ layout_height="-1">
+
+
+<RelativeLayout
+ id="2131099845"
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801"
+ layout_alignParentTop="-1">
+
+<ImageView
+ id="2131099662"
+ layout_width="-2"
+ layout_height="10241"
+ src="2130837676"
+ layout_centerInParent="-1"/>
+
+<ImageButton
+ id="2131099846"
+ background="2130837680"
+ layout_width="11521"
+ layout_height="8961"
+ layout_marginLeft="1281"
+ layout_marginRight="1281"
+ src="2130837685"
+ layout_alignParentLeft="-1"
+ layout_centerVertical="-1"
+ onClick="startStatisticsIntent"/>
+
+<ImageButton
+ id="2131099847"
+ background="2130837680"
+ layout_width="11521"
+ layout_height="8961"
+ layout_marginLeft="1281"
+ layout_marginRight="1281"
+ src="2130837684"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"
+ onClick="startSettingsIntent"/>
+</RelativeLayout>
+
+<RelativeLayout
+ id="2131099848"
+ layout_width="-1"
+ layout_height="-1"
+ layout_below="2131099845">
+
+<ScrollView
+ id="2131099849"
+ scrollbars="0"
+ layout_width="-1"
+ layout_height="-1"
+ layout_marginLeft="2561"
+ layout_marginRight="2561">
+
+<LinearLayout
+ orientation="1"
+ id="2131099850"
+ layout_width="-1"
+ layout_height="-2">
+
+<include
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout="@layout/row_new_game"/>
+
+<LinearLayout
+ orientation="1"
+ id="2131099851"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="1281"/>
+
+<include
+ id="2131099852"
+ layout_width="-1"
+ layout_height="-2"
+ layout="@layout/row_separator"/>
+
+<LinearLayout
+ orientation="1"
+ id="2131099853"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="1281"/>
+
+<include
+ id="2131099854"
+ layout_width="-1"
+ layout_height="-2"
+ layout="@layout/row_separator"/>
+
+<LinearLayout
+ orientation="1"
+ id="2131099855"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="1281"/>
+
+<include
+ id="2131099856"
+ layout_width="-1"
+ layout_height="-2"
+ layout="@layout/row_last"/>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
+
+<ProgressBar
+ id="2131099857"
+ layout_width="-2"
+ layout_height="-2"
+ layout_centerInParent="-1"/>
+
+<RelativeLayout
+ gravity="81"
+ id="2131099858"
+ layout_width="-1"
+ layout_height="-2"
+ layout_alignParentBottom="-1"
+ layout_centerHorizontal="-1"/>

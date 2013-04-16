@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099799"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<ImageView
+ id="2131099800"
+ layout_width="-2"
+ layout_height="-1"
+ layout_marginLeft="1281"
+ layout_marginRight="1281"
+ src="2130837686"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230726"
+ id="2131099801"
+ layout_width="-2"
+ layout_height="-2"
+ text="0:00"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ layout_toRightOf="2131099800"
+ layout_centerVertical="-1"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099802"
+ layout_width="-2"
+ layout_height="-2"
+ text="0"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ layout_centerInParent="-1"/>
+</RelativeLayout>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099803"
+ background="2131230748"
+ visibility="2"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textSize="11521"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="17"
+ id="2131099804"
+ layout_width="-1"
+ layout_height="20481"
+ maxLines="1"/>
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="17"
+ id="2131099805"
+ layout_width="-1"
+ layout_height="25601"
+ layout_marginBottom="3841"/>
+
+<ProgressBar
+ layout_gravity="17"
+ layout_width="12801"
+ layout_height="12801"
+ indeterminateOnly="-1"
+ style="@android:style/Widget.ProgressBar.Large"/>
+</LinearLayout>
+
+<FrameLayout
+ layout_width="-1"
+ layout_height="17921"
+ layout_marginTop="2561"
+ layout_marginBottom="2561">
+
+<ImageView
+ layout_gravity="80"
+ id="2131099662"
+ layout_width="-1"
+ layout_height="15361"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ src="2130837599"
+ scaleType="1"/>
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="17921"
+ layout_marginLeft="2561"
+ layout_marginRight="2561">
+
+<TextView
+ textSize="2563"
+ textStyle="1"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099806"
+ background="2130837600"
+ paddingLeft="3841"
+ paddingRight="3841"
+ layout_width="-2"
+ layout_height="12801"
+ layout_marginTop="3841"
+ text="CURRENTWORD"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="2563"
+ textColor="2131230726"
+ id="2131099807"
+ paddingLeft="771"
+ paddingRight="771"
+ layout_width="-2"
+ layout_height="-2"
+ text="+8"
+ shadowColor="2131230727"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_toRightOf="2131099806"
+ layout_alignBaseline="2131099806"
+ layout_alignBottom="2131099806"/>
+</RelativeLayout>
+</FrameLayout>
+
+
+<se.maginteractive.rumble.view.GameView
+ layout_gravity="1"
+ id="2131099808"
+ layout_width="-1"
+ layout_height="-2"
+ listSelector="0"
+ numColumns="4"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099947"
+ layout_width="12801"
+ layout_height="12801"
+ layout_marginRight="769"
+ src="2130837644"
+ layout_alignParentLeft="-1"/>
+
+<LinearLayout
+ orientation="0"
+ layout_width="-1"
+ layout_height="-2"
+ layout_toRightOf="2131099947"
+ layout_centerVertical="-1">
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+
+<se.maginteractive.rumble.util.AdjustableTextView
+ textSize="4609"
+ textColor="2131230727"
+ ellipsize="0"
+ layout_gravity="3"
+ id="2131099948"
+ layout_width="-1"
+ layout_height="-2"
+ text="NAME"
+ singleLine="-1"/>
+
+<TextView
+ textSize="3585"
+ textStyle="1"
+ textColor="2131230737"
+ id="2131099949"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="-1023"
+ text="SCORE"
+ layout_below="2131099948"/>
+</RelativeLayout>
+
+<se.maginteractive.rumble.util.AdjustableTextView
+ textSize="6657"
+ textColor="2131230727"
+ ellipsize="0"
+ gravity="17"
+ id="2131099950"
+ layout_width="-1"
+ layout_height="-1"
+ layout_marginRight="2561"
+ text="ALL WORDS"
+ singleLine="-1"
+ layout_weight="1065353216"/>
+</LinearLayout>
+</RelativeLayout>

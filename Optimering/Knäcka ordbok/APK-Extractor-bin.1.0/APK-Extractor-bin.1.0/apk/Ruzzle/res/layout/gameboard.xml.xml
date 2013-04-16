@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+<view
+ id="2131099808"
+ layout_width="-1"
+ layout_height="-1"
+ class="se.maginteractive.rumble.gameview.GameView"/>
+</LinearLayout>

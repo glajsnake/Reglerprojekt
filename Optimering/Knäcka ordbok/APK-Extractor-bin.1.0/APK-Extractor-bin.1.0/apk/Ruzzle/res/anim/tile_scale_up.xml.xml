@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+ interpolator="17432587">
+
+<scale
+ duration="100"
+ pivotX="1073741872"
+ pivotY="1073741872"
+ repeatCount="0"
+ fromXScale="1065353216"
+ toXScale="1066192077"
+ fromYScale="1065353216"
+ toYScale="1066192077"/>
+</set>

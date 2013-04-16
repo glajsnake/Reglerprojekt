@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099967"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ layout_width="-1"
+ layout_height="-1">
+
+<ImageView
+ layout_gravity="1"
+ id="2131099662"
+ layout_width="-2"
+ layout_height="-2"
+ src="2130837670"/>
+
+<LinearLayout
+ layout_gravity="80"
+ orientation="1"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="5121">
+
+<TextView
+ textSize="6401"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099968"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165247"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<EditText
+ id="2131099881"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginTop="2561"
+ layout_marginRight="5121"
+ hint="2131165244"
+ ems="10"
+ singleLine="-1"
+ maxLength="12"/>
+</EditText>
+
+<EditText
+ id="2131099882"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginRight="5121"
+ hint="2131165245"
+ ems="10"
+ singleLine="-1"
+ maxLength="20"
+ inputType="129"
+ imeOptions="5"/>
+
+<EditText
+ id="2131099672"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginRight="5121"
+ hint="2131165243"
+ ems="10"
+ singleLine="-1"
+ inputType="33"/>
+
+<Button
+ textSize="6401"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099885"
+ background="2130837601"
+ paddingLeft="12801"
+ paddingTop="1281"
+ paddingRight="12801"
+ paddingBottom="1281"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ text="2131165249"
+ onClick="registerUser"/>
+
+<LinearLayout
+ layout_gravity="1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561">
+
+<TextView
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099969"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165242"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099970"
+ background="2130837606"
+ paddingLeft="3841"
+ paddingTop="1281"
+ paddingRight="3841"
+ paddingBottom="1281"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165251"
+ onClick="finishLoginActivity"/>
+</LinearLayout>
+</LinearLayout>
+</FrameLayout>
+</LinearLayout>

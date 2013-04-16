@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099886"
+ layout_width="38401"
+ layout_height="-1">
+
+<include
+ id="2131099887"
+ layout="@layout/minigrid_row"/><include
+ id="2131099888"
+ layout="@layout/minigrid_row"/><include
+ id="2131099889"
+ layout="@layout/minigrid_row"/><include
+ id="2131099890"
+ layout="@layout/minigrid_row"/></TableLayout>

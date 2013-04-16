@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099915"
+ background="2130837688"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099916"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="2561"
+ text="2131165603"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<TextView
+ textSize="5121"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099917"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="2561"
+ text="2131165604"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<ImageView
+ layout_width="-1"
+ layout_height="513"
+ src="2130837548"
+ scaleType="1"/>
+
+<android.support.v4.view.ViewPager
+ id="2131099918"
+ paddingTop="1281"
+ layout_width="-1"
+ layout_height="46081"/>
+
+<se.maginteractive.rumble.util.CirclePageIndicator
+ layout_gravity="80"
+ id="2131099919"
+ layout_width="-1"
+ layout_height="-2"/>
+
+<ImageView
+ layout_width="-1"
+ layout_height="513"
+ layout_marginTop="1281"
+ src="2130837548"
+ scaleType="1"/>
+
+<ImageView
+ layout_gravity="17"
+ id="2131099920"
+ background="2130837602"
+ layout_width="12801"
+ layout_height="12801"
+ layout_marginTop="2561"
+ src="2130837540"
+ onClick="shareToFacebook"/>
+
+<TextView
+ textSize="5121"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099921"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="2561"
+ text="2131165607"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+
+<android.support.v4.view.ViewPager
+ id="2131099999"
+ layout_width="-1"
+ layout_height="1"
+ layout_weight="1065353216"/>
+<com.viewpagerindicator.CirclePageIndicator
+ id="2131100000"
+ padding="2561"
+ layout_width="-1"
+ layout_height="-2"/>
+</LinearLayout>

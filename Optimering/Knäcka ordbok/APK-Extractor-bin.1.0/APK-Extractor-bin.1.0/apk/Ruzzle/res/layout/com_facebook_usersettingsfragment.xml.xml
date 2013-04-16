@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ background="2130837643"
+ layout_width="-1"
+ layout_height="-1">
+
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+<ImageView
+ layout_gravity="1"
+ id="2131099762"
+ layout_width="49409"
+ layout_height="11265"
+ layout_marginTop="8961"
+ src="2130837628"
+ contentDescription="2131165191"/>
+
+<TextView
+ textSize="4098"
+ textStyle="1"
+ gravity="17"
+ id="2131099763"
+ layout_width="-1"
+ layout_height="25601"
+ layout_marginTop="8961"
+ lines="1"/>
+
+<com.facebook.widget.LoginButton
+ layout_gravity="1"
+ id="2131099764"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="8961"
+ layout_marginBottom="8961"
+ login_text="2131165192"
+ style="@style/com_facebook_loginview_silver_style"/>
+</LinearLayout>
+</ScrollView>

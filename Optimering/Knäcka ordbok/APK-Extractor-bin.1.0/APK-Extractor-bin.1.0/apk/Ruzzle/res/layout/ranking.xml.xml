@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099657"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165476"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+
+<ImageButton
+ layout_gravity="21"
+ id="2131099962"
+ background="2130837680"
+ layout_width="11521"
+ layout_height="8961"
+ layout_marginRight="1281"
+ src="2130837683"
+ onClick="showInfoMessage"/>
+</FrameLayout>
+
+<FrameLayout
+ orientation="1"
+ paddingLeft="2561"
+ paddingTop="2561"
+ paddingRight="2561"
+ paddingBottom="2561"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ paddingLeft="2561"
+ paddingTop="14337"
+ paddingRight="2817"
+ paddingBottom="2561"
+ layout_width="-1"
+ layout_height="-1">
+
+<ListView
+ id="2131099963"
+ background="2131230742"
+ scrollbars="0"
+ fadingEdge="0"
+ layout_width="-1"
+ layout_height="-1"
+ cacheColorHint="0"
+ divider="0"
+ dividerHeight="1"/>
+</FrameLayout>
+
+<ImageView
+ id="2131099666"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837827"
+ scaleType="1"
+ adjustViewBounds="-1"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230727"
+ layout_gravity="48"
+ id="2131099668"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginTop="3329"
+ text="2131165477"/>
+</FrameLayout>
+</LinearLayout>

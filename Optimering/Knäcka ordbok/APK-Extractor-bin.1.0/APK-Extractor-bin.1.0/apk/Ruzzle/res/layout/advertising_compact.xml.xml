@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099716"
+ background="2130837595"
+ layout_width="-1"
+ layout_height="-1">
+
+
+<TextView
+ textSize="9217"
+ textColor="-29669"
+ gravity="17"
+ id="2131099717"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginTop="2561"
+ layout_marginRight="2561"
+ text="2131165423"
+ shadowColor="-6329600"
+ shadowDx="0"
+ shadowDy="1073741824"
+ shadowRadius="1065353216"
+ layout_alignParentTop="-1"
+ layout_centerHorizontal="-1"/>
+<TextView
+ textSize="5377"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099718"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ text="2131165359"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099717"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="5377"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099719"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165459"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099718"
+ layout_centerHorizontal="-1"/>
+
+<TextView
+ textSize="5377"
+ textColor="2131230726"
+ gravity="17"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165460"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099719"
+ layout_centerHorizontal="-1"/>
+
+<Button
+ textSize="5121"
+ textColor="2131230726"
+ state_enabled="-1"
+ id="2131099720"
+ background="2130837603"
+ layout_width="-1"
+ layout_height="13569"
+ layout_marginLeft="3841"
+ layout_marginRight="3841"
+ layout_marginBottom="2561"
+ text="2131165422"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_above="2131099721"/>
+
+<Button
+ textSize="5121"
+ textColor="2131230726"
+ id="2131099721"
+ background="2130837605"
+ layout_width="-1"
+ layout_height="11521"
+ layout_marginLeft="3841"
+ layout_marginRight="3841"
+ layout_marginBottom="3841"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ layout_above="2131099722"/>
+
+<RelativeLayout
+ gravity="81"
+ id="2131099722"
+ layout_width="-2"
+ layout_height="13313"
+ layout_alignParentBottom="-1"
+ layout_centerHorizontal="-1"/>

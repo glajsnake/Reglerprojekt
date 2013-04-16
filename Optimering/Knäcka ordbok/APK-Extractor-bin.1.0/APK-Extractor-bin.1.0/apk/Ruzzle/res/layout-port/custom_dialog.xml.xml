@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="0"
+ padding="2561"
+ layout_width="-1"
+ layout_height="-1">
+
+<ImageView
+ id="2131099765"
+ layout_width="-2"
+ layout_height="-1"
+ layout_marginRight="2561"
+ src="2130837644"/>
+<TextView
+ textColor="-1"
+ id="2131099766"
+ layout_width="-2"
+ layout_height="-1"
+ text="TEST"/>
+</LinearLayout>

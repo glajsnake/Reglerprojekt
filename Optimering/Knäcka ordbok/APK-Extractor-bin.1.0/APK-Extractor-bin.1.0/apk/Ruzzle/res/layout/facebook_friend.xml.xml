@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099767"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ id="2131099768"
+ background="2130837729"
+ visibility="2"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ style="@style/sectionHeaderText"/>
+
+<RelativeLayout
+ id="2131099769"
+ background="2130837717"
+ padding="1"
+ layout_width="-1"
+ layout_height="-2">
+
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099667"
+ padding="1281"
+ layout_width="15361"
+ layout_height="15361"
+ src="2130837644"/>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_toRightOf="2131099667"
+ layout_centerVertical="-1">
+
+<TextView
+ textSize="4609"
+ textColor="2130837598"
+ id="2131099770"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="SKOTHEN"
+ singleLine="-1"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ id="2131099771"
+ duplicateParentState="-1"
+ text="Henrik Skoth"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<Button
+ textSize="3841"
+ textColor="2131230737"
+ gravity="17"
+ layout_gravity="19"
+ id="2131099772"
+ background="2130837604"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="8961"
+ layout_marginRight="3841"
+ text="2131165368"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"/>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ clickable="-1"
+ layout_width="-1"
+ layout_height="-2"
+ onClick="showRound">
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ id="2131099971"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165388"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_centerHorizontal="-1"/>
+
+<FrameLayout
+ id="2131099972"
+ tag="1"
+ background="2130837659"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ layout_below="2131099971"
+ onClick="showRound">
+
+<FrameLayout
+ id="2131099973"
+ background="2130837663"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="19"
+ id="2131099974"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="2131165516"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ layout_gravity="5"
+ id="2131099975"
+ background="2130837700"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131099976"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="2131165516"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+</RelativeLayout>

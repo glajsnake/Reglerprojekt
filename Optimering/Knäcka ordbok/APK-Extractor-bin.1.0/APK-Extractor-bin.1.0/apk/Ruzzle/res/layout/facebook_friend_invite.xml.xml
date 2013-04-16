@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099769"
+ background="2130837717"
+ padding="1"
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ id="2131099667"
+ padding="1281"
+ layout_width="15361"
+ layout_height="15361"
+ src="2130837644"/>
+
+<TextView
+ textSize="4609"
+ textColor="2130837598"
+ id="2131099770"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="Henrik Skoth"
+ singleLine="-1"
+ layout_toRightOf="2131099667"
+ layout_centerVertical="-1"
+ style="@style/whiteshadowedText"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230737"
+ layout_gravity="19"
+ id="2131099773"
+ background="2130837604"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="8961"
+ layout_marginRight="3841"
+ text="2131165347"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"/>
+</RelativeLayout>

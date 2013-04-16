@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+ textSize="4354"
+ textStyle="1"
+ textColor="-9931126"
+ gravity="19"
+ orientation="0"
+ id="2131099753"
+ background="2130837622"
+ paddingLeft="2049"
+ paddingBottom="0"
+ layout_width="-1"
+ layout_height="-2"
+ shadowColor="-1073741825"
+ shadowDx="1065353216"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>

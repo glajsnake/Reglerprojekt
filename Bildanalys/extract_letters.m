@@ -41,7 +41,7 @@ for c = 1:4
         corner = [max(nrow), max(ncol)];
         
         %segment image
-        letters{c,r} = im( max(1,round(corner(1)-0.2222*rect_trimmed(3))):corner(1) , ...
-                           max(1,round(corner(2)-0.2222*rect_trimmed(4))):corner(2),:);
+        letters{c,r} = im( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
+                           max(1,round(corner(2)-0.2*rect_trimmed(4))):corner(2),:);
     end
 end

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165398"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ layout_centerInParent="-1"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099991"
+ background="2130837680"
+ layout_width="-2"
+ layout_height="8961"
+ layout_marginRight="1281"
+ text="2131165321"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"/>
+</RelativeLayout>
+
+<ScrollView
+ paddingLeft="2561"
+ paddingRight="2561"
+ scrollbars="0"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ background="2130837729"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ text="2131165397"
+ style="@style/sectionHeaderText"/>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099992"
+ background="2130837724"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165305"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ id="2131099993"
+ duplicateParentState="-1"
+ text="2131165221"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099994"
+ background="2130837718"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165232"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ duplicateParentState="-1"
+ text="2131165234"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<RelativeLayout
+ background="2130837713"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_alignParentLeft="-1"
+ layout_centerVertical="-1">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2131230727"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165400"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ text="2131165411"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<ToggleButton
+ id="2131099995"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1"
+ checked="-1"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"/>
+</RelativeLayout>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099996"
+ background="2130837710"
+ visibility="2"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="2561">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165374"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ duplicateParentState="-1"
+ text="2131165422"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<TextView
+ background="2130837729"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ layout_marginBottom="769"
+ text="2131165344"
+ style="@style/sectionHeaderText"/>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099997"
+ background="2130837724"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165412"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textColor="2130837666"
+ duplicateParentState="-1"
+ text="2131165425"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+
+<LinearLayout
+ gravity="16"
+ orientation="1"
+ id="2131099998"
+ background="2130837714"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ textAppearance="16842817"
+ textColor="2130837598"
+ duplicateParentState="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165303"
+ style="@style/whiteshadowedText"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

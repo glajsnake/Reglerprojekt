@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099878"
+ layout_width="-1"
+ layout_height="-1">
+
+<ImageView
+ id="2131099662"
+ layout_width="-1"
+ layout_height="-2"
+ src="2130837670"
+ scaleType="3"
+ layout_alignParentTop="-1"/>
+
+<LinearLayout
+ orientation="1"
+ id="2131099879"
+ layout_width="-1"
+ layout_height="-2"
+ layout_centerInParent="-1">
+
+<TextView
+ textSize="6401"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099880"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165500"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<EditText
+ id="2131099881"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginTop="1281"
+ layout_marginRight="5121"
+ hint="2131165239"
+ ems="10"
+ singleLine="-1"
+ imeOptions="5"/>
+</EditText>
+
+<EditText
+ id="2131099882"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginRight="5121"
+ hint="2131165240"
+ ems="10"
+ singleLine="-1"
+ inputType="129"/>
+
+<Button
+ textSize="6401"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099792"
+ background="2130837601"
+ paddingLeft="12801"
+ paddingTop="1281"
+ paddingRight="12801"
+ paddingBottom="1281"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165248"
+ onClick="logIn"/>
+<Button
+ textSize="3329"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="1"
+ id="2131099883"
+ background="2130837623"
+ layout_width="58881"
+ layout_height="-2"
+ layout_marginTop="2561"
+ text="2131165611"/>
+</LinearLayout>
+
+<RelativeLayout
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="2561"
+ layout_alignParentBottom="-1"
+ layout_centerHorizontal="-1">
+
+<TextView
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099884"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="1281"
+ layout_marginTop="1281"
+ text="2131165241"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_toRightOf="2131099885"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099885"
+ background="2130837606"
+ paddingLeft="3841"
+ paddingTop="1281"
+ paddingRight="3841"
+ paddingBottom="1281"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginBottom="2561"
+ text="2131165250"
+ onClick="startRegisterIntent"/>
+
+<TextView
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099788"
+ focusable="-1"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165252"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099885"
+ layout_centerHorizontal="-1"
+ onClick="forgotPassword"/>
+</RelativeLayout>
+</RelativeLayout>

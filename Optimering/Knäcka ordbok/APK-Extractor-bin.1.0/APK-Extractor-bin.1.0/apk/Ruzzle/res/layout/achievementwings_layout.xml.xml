@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099704"
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ id="2131099705"
+ layout_width="-1"
+ layout_height="25601"
+ src="2130837578"
+ scaleType="3"
+ adjustViewBounds="-1"
+ layout_alignParentTop="-1"/>
+
+<ImageView
+ id="2131099706"
+ layout_width="-1"
+ layout_height="1"
+ layout_marginTop="2561"
+ layout_marginBottom="2561"
+ src="2130837579"
+ scaleType="3"
+ adjustViewBounds="-1"
+ layout_alignTop="2131099705"
+ layout_alignBottom="2131099705"/>
+
+<TextView
+ textSize="6401"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099707"
+ layout_width="-1"
+ layout_height="-2"
+ text="SPEEDSTER"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099705"/>
+
+<TextView
+ textSize="5121"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099708"
+ paddingLeft="1281"
+ paddingRight="1281"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginBottom="1281"
+ text="ak.jdhasjdgasdgaskdghaisdagdjagskjdgasdsd"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099707"/>
+</RelativeLayout>

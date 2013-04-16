@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099734"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ id="2131099735"
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801"
+ layout_alignParentTop="-1">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099736"
+ layout_width="-2"
+ layout_height="-2"
+ text="username"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<ListView
+ id="2131099737"
+ background="2130837607"
+ scrollbars="0"
+ fadingEdge="8192"
+ clickable="0"
+ layout_width="-1"
+ layout_height="-1"
+ stackFromBottom="-1"
+ transcriptMode="2"
+ cacheColorHint="0"
+ divider="0"
+ dividerHeight="2561"
+ layout_above="2131099738"
+ layout_below="2131099735"/>
+
+<RelativeLayout
+ orientation="0"
+ id="2131099738"
+ background="2130837589"
+ layout_width="-1"
+ layout_height="15361"
+ layout_alignParentBottom="-1">
+
+<EditText
+ id="2131099739"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="769"
+ hint="2131165276"
+ singleLine="-1"
+ layout_toLeftOf="2131099740"
+ layout_alignParentLeft="-1"
+ layout_centerVertical="-1"
+ inputType="16385"
+ imeOptions="5"/>
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099740"
+ background="2130837606"
+ paddingLeft="1281"
+ paddingRight="1281"
+ layout_width="-2"
+ layout_height="11521"
+ layout_marginRight="769"
+ text="2131165275"
+ layout_alignTop="2131099739"
+ layout_alignParentRight="-1"/>
+</RelativeLayout>
+</RelativeLayout>

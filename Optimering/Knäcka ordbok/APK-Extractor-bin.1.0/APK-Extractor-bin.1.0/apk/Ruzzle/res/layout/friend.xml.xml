@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ padding="2"
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ id="2131099666"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837709"
+ scaleType="1"
+ adjustViewBounds="-1"/>
+
+<LinearLayout
+ orientation="0"
+ id="2131099781"
+ layout_width="-1"
+ layout_height="-1">
+
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099667"
+ padding="1793"
+ layout_width="15361"
+ layout_height="15361"
+ src="2130837644"/>
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<TextView
+ textSize="4609"
+ textColor="2131230727"
+ id="2131099732"
+ layout_width="-2"
+ layout_height="-2"
+ text="Username"
+ singleLine="-1"
+ style="@style/whiteshadowedText"/>
+</LinearLayout>
+</LinearLayout>
+
+<FrameLayout
+ layout_gravity="21"
+ id="2131099784"
+ paddingRight="2561"
+ layout_width="-2"
+ layout_height="-2">
+
+<Button
+ textSize="3841"
+ textColor="2131230737"
+ id="2131099793"
+ background="2130837604"
+ layout_width="-2"
+ layout_height="8961"
+ text="Play"/>
+</FrameLayout>
+</FrameLayout>

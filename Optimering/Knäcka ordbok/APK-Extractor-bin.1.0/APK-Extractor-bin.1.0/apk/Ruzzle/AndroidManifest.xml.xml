@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+ versionCode="70"
+ versionName="1.5.1"
+ installLocation="0"
+ package="se.maginteractive.rumble">
+
+<uses-sdk
+ minSdkVersion="8"
+ targetSdkVersion="14"/>
+
+
+
+
+
+
+
+
+
+
+<permission
+ name="se.maginteractive.rumble.permission.C2D_MESSAGE"
+ protectionLevel="2"/>
+
+<uses-permission
+ name="se.maginteractive.rumble.permission.C2D_MESSAGE"/>
+
+<uses-permission
+ name="com.google.android.c2dm.permission.RECEIVE"/>
+<uses-permission
+ name="android.permission.INTERNET"/>
+<uses-permission
+ name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission
+ name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission
+ name="com.android.vending.CHECK_LICENSE"/>
+<uses-permission
+ name="android.permission.READ_PHONE_STATE"/>
+<uses-permission
+ name="android.permission.VIBRATE"/>
+<uses-permission
+ name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<supports-screens
+ smallScreens="-1"
+ normalScreens="-1"
+ largeScreens="-1"
+ xlargeScreens="-1"/>
+
+<application
+ theme="16973830"
+ label="2131165209"
+ icon="2130837669"
+ name="se.maginteractive.rumble.Rumble"
+ hardwareAccelerated="-1">
+
+
+
+
+
+<receiver
+ name="se.maginteractive.rumble.GCM.C2DMReceiver"
+ permission="com.google.android.c2dm.permission.SEND">
+<intent-filter>
+
+<action
+ name="com.google.android.c2dm.intent.RECEIVE"/>
+<category
+ name="se.maginteractive.rumble"/>
+</intent-filter>
+<intent-filter>
+
+<action
+ name="com.google.android.c2dm.intent.REGISTRATION"/>
+<category
+ name="se.maginteractive.rumble"/>
+</intent-filter>
+</receiver>
+<receiver
+ name="se.maginteractive.rumble.GLES2.IncommingCallReceiver">
+<intent-filter>
+
+<action
+ name="android.intent.action.PHONE_STATE"/>
+</intent-filter>
+</receiver>
+
+<activity
+ label="2131165209"
+ name="se.maginteractive.rumble.activities.SplashActivity"
+ screenOrientation="1">
+<intent-filter>
+
+<action
+ name="android.intent.action.MAIN"/>
+<category
+ name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.LoginActivity"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.StatisticsActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.NotificationSettingsActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.RankingActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.GameStatisticsActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.SettingsActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.AccountSettingsActivity"
+ screenOrientation="1"
+ windowSoftInputMode="2"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.PostRoundActivity"
+ screenOrientation="1"
+ windowSoftInputMode="2"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.GameListActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.RegisterActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.ForgotPasswordActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.TutorialActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.AboutActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.GamePreviewActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.ChatActivity"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.GameActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.StartNewGameActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.SelectLanguageActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.BuyPremiumActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.SelectProfilePictureActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.ChallengeFriendActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.FindFriendsActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.AdvertisingCompactActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.FacebookFriendActivity"
+ screenOrientation="1"/>
+<activity
+ theme="2131361808"
+ name="se.maginteractive.rumble.activities.AchievementActivity"
+ screenOrientation="1"/>
+<activity
+ name="se.maginteractive.rumble.activities.NewAchievementActivity"
+ screenOrientation="1"/>
+<activity
+ theme="16973830"
+ name="se.maginteractive.rumble.GLES2.GameActivityGles2"
+ configChanges="1408"/>
+<activity
+ name="com.google.ads.AdActivity"
+ configChanges="4016"/>
+<activity
+ theme="16973831"
+ name="com.vungle.sdk.VungleAdvert"
+ configChanges="1184"/>
+<activity
+ name="com.tapfortap.TapForTapActivity"/>
+<activity
+ theme="16973840"
+ name="com.millennialmedia.android.MMActivity"
+ configChanges="176"/>
+<activity
+ name="com.millennialmedia.android.VideoPlayer"
+ configChanges="176"/>
+<activity
+ theme="16973831"
+ name="com.admarvel.android.ads.AdMarvelActivity"
+ configChanges="1200"
+ hardwareAccelerated="-1"/><activity
+ theme="16973831"
+ name="com.admarvel.android.ads.AdMarvelVideoActivity"
+ configChanges="1200"
+ hardwareAccelerated="-1"/><activity
+ name="se.maginteractive.rumble.activities.MoreGamesActivity"
+ screenOrientation="1"/><activity
+ label="2131165209"
+ name="com.facebook.LoginActivity"/><meta-data
+ name="com.facebook.sdk.ApplicationId"
+ value="2131165636"/>
+</application>
+</manifest>

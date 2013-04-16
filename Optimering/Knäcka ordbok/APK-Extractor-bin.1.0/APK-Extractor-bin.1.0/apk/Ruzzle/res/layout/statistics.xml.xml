@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099657"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165473"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+
+<ImageButton
+ layout_gravity="21"
+ id="2131100015"
+ background="2130837680"
+ layout_width="11521"
+ layout_height="8961"
+ layout_marginRight="1281"
+ src="2130837681"/>
+</FrameLayout>
+
+<ScrollView
+ id="2131099665"
+ paddingLeft="2561"
+ paddingRight="2561"
+ scrollbars="0"
+ fadingEdge="8192"
+ layout_width="-1"
+ layout_height="-1">
+
+<LinearLayout
+ orientation="1"
+ paddingTop="2561"
+ paddingBottom="2561"
+ layout_width="-1"
+ layout_height="-2">
+
+<FrameLayout
+ background="2130837723"
+ padding="1"
+ layout_width="-1"
+ layout_height="15361">
+
+<se.maginteractive.rumble.view.AvatarView
+ id="2131099667"
+ padding="1793"
+ layout_width="15361"
+ layout_height="15361"
+ src="2130837644"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230727"
+ layout_gravity="16"
+ id="2131099668"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="16641"
+ text="username"
+ style="@style/whiteshadowedText"/>
+
+<TextView
+ textAppearance="16842817"
+ textColor="2131230741"
+ layout_gravity="21"
+ id="2131100006"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="2561"
+ text="language"/>
+</FrameLayout>
+
+<RelativeLayout
+ background="2130837720"
+ paddingLeft="1"
+ paddingTop="1"
+ paddingRight="1"
+ paddingBottom="2561"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ id="2131100016"
+ paddingTop="2561"
+ text="2131165461"
+ layout_alignParentLeft="-1"
+ layout_alignParentTop="-1"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100017"
+ paddingTop="2561"
+ text=""
+ layout_alignParentTop="-1"
+ layout_alignParentRight="-1"
+ style="@style/statisticsRowValueStyle"/>
+
+<LinearLayout
+ orientation="0"
+ id="2131100018"
+ background="2130837660"
+ paddingTop="513"
+ layout_width="-1"
+ layout_height="46081"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ layout_below="2131100016"/>
+</RelativeLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100019"
+ text="2131165464"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100020"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100021"
+ text="2131165465"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100022"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100023"
+ text="2131165466"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100024"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100025"
+ text="2131165467"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100026"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100027"
+ text="2131165468"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100028"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100029"
+ text="2131165469"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100030"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100031"
+ text="2131165470"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100032"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100033"
+ text="2131165471"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100034"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ background="2130837720"
+ padding="1"
+ style="@style/statisticsRowStyle">
+
+<TextView
+ id="2131100035"
+ text="2131165472"
+ style="@style/statisticsRowLabelStyle"/>
+
+<TextView
+ id="2131100036"
+ text=""
+ style="@style/statisticsRowValueStyle"/>
+</FrameLayout>
+
+<FrameLayout
+ layout_width="-1"
+ layout_height="-2"
+ style="@style/statisticsRowStyle">
+
+<Button
+ textAppearance="16973892"
+ textSize="5121"
+ textColor="2130837598"
+ gravity="19"
+ id="2131100037"
+ background="2130837714"
+ layout_width="-1"
+ layout_height="-2"
+ text="2131165463"
+ style="@style/whiteshadowedText"/>
+</FrameLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099741"
+ layout_width="-1"
+ layout_height="-2">
+
+<FrameLayout
+ layout_gravity="5"
+ id="2131099742"
+ background="2130837609"
+ padding="1"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="25601">
+
+<TextView
+ textSize="4097"
+ textColor="2131230727"
+ layout_gravity="17"
+ id="2131099743"
+ paddingLeft="3073"
+ paddingTop="1537"
+ paddingRight="2817"
+ paddingBottom="2305"
+ layout_width="-2"
+ layout_height="-2"
+ text=""
+ singleLine="0"/>
+</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+ layout_width="51201"
+ layout_height="-2">
+
+<TextView
+ id="2131099891"
+ style="@style/mini_grid_cell"/>
+<TextView
+ id="2131099892"
+ style="@style/mini_grid_cell"/>
+<TextView
+ id="2131099893"
+ style="@style/mini_grid_cell"/>
+<TextView
+ id="2131099894"
+ style="@style/mini_grid_cell"/>
+</TableRow>

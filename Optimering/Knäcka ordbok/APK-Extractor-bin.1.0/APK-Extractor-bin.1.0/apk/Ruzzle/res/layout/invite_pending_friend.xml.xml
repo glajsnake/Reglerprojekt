@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ id="2131099874"
+ padding="2"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="0"
+ id="2131099781"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ paddingLeft="513"
+ paddingTop="1793"
+ layout_width="15361"
+ layout_height="15361"
+ layout_marginRight="769">
+<ImageView
+ id="2131099667"
+ paddingLeft="1281"
+ paddingRight="1281"
+ paddingBottom="1281"
+ layout_width="-1"
+ layout_height="-1"
+ src="2130837689"/>
+</FrameLayout>
+
+
+<LinearLayout
+ layout_gravity="16"
+ orientation="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<TextView
+ id="2131099770"
+ text="2131165367"
+ style="@style/waitingCell"/>
+
+<TextView
+ id="2131099771"
+ style="@style/subtitleInCell"/>
+</LinearLayout>
+</LinearLayout>
+</FrameLayout>

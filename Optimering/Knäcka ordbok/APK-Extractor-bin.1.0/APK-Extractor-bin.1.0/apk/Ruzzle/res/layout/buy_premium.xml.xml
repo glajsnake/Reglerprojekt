@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<FrameLayout
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099657"
+ layout_width="-2"
+ layout_height="-2"
+ text="Ruzzle Premium"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<ScrollView
+ id="2131099665"
+ layout_width="-1"
+ layout_height="-2">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099681"
+ layout_width="-2"
+ layout_height="-2"
+ text="Upgrade to premium!"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginLeft="5121"
+ layout_marginTop="3841"
+ layout_marginRight="5121">
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099662"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099684"
+ layout_width="-2"
+ layout_height="-2"
+ text="No advertisements"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099723"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099685"
+ layout_width="-2"
+ layout_height="-2"
+ text="Unlimited number of games"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099724"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099725"
+ layout_width="-2"
+ layout_height="-2"
+ text="Practice mode"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099726"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099689"
+ layout_width="-2"
+ layout_height="-2"
+ text="More profile pictures"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099727"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099688"
+ layout_width="-2"
+ layout_height="-2"
+ text="See all words on the board"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+
+<LinearLayout
+ layout_width="-1"
+ layout_height="-2">
+
+<ImageView
+ layout_gravity="16"
+ id="2131099658"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="1281"
+ src="2130837612"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ id="2131099728"
+ layout_width="-2"
+ layout_height="-2"
+ text="Game statistics and ranking"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</LinearLayout>
+</LinearLayout>
+
+<Button
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099729"
+ background="2130837601"
+ paddingLeft="5121"
+ paddingRight="5121"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="3841"
+ text="Upgrade (SEK22.00)"/>
+
+<TextView
+ textSize="7681"
+ textColor="2131230726"
+ gravity="17"
+ layout_gravity="1"
+ id="2131099730"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="3841"
+ text="Activate previous purchase"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<TextView
+ textSize="4609"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099659"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="1281"
+ text="If you have already paid for Ruzzle Premium,"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<TextView
+ textSize="4609"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099659"
+ layout_width="-2"
+ layout_height="-2"
+ text="click on 'Activate'"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<Button
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099731"
+ background="2130837601"
+ paddingLeft="12801"
+ paddingRight="12801"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="2561"
+ text="Activate"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

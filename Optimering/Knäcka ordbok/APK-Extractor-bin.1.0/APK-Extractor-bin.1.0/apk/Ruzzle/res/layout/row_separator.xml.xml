@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099984"
+ paddingBottom="769"
+ visibility="2"
+ layout_width="-1"
+ layout_height="-2">
+
+<TextView
+ id="2131099843"
+ background="2130837729"
+ text="Waiting for opponent"
+ layout_centerVertical="-1"
+ style="@style/sectionHeaderText"/>
+
+<ImageView
+ id="2131099985"
+ visibility="2"
+ clickable="-1"
+ layout_width="-2"
+ layout_height="-2"
+ src="2130837841"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"
+ onClick="showRemovedFinishedGamesDialog"/>
+</RelativeLayout>

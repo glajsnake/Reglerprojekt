@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ orientation="1"
+ id="2131099656"
+ layout_width="-1"
+ layout_height="-1">
+
+<RelativeLayout
+ id="2131099809"
+ background="2130837677"
+ layout_width="-1"
+ layout_height="12801">
+
+<TextView
+ textSize="5633"
+ textStyle="1"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099810"
+ background="2130837676"
+ layout_width="-2"
+ layout_height="-2"
+ layout_centerInParent="-1"/>
+
+<RelativeLayout
+ layout_width="14081"
+ layout_height="-1"
+ layout_marginRight="1281"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1">
+
+<ImageButton
+ id="2131099811"
+ background="2130837680"
+ layout_width="11521"
+ layout_height="8961"
+ src="2130837682"
+ layout_alignParentRight="-1"
+ layout_centerVertical="-1"
+ onClick="startChatActivity"/>
+
+<TextView
+ textSize="3585"
+ textColor="2131230726"
+ gravity="17"
+ id="2131099812"
+ background="2130837608"
+ paddingBottom="513"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="769"
+ text="1"
+ layout_alignParentLeft="-1"
+ layout_alignParentTop="-1"/>
+</RelativeLayout>
+</RelativeLayout>
+
+<ScrollView
+ layout_width="-1"
+ layout_height="-1">
+
+<LinearLayout
+ orientation="1"
+ layout_width="-1"
+ layout_height="-1">
+
+<LinearLayout
+ orientation="0"
+ layout_width="-1"
+ layout_height="-2"
+ layout_marginTop="1793">
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+
+<se.maginteractive.rumble.view.AvatarView
+ layout_gravity="1"
+ id="2131099813"
+ layout_width="12801"
+ layout_height="12801"
+ src="2130837644"
+ layout_centerHorizontal="-1"/>
+
+<se.maginteractive.rumble.util.AdjustableTextView
+ textSize="4609"
+ textColor="2131230726"
+ ellipsize="0"
+ gravity="17"
+ layout_gravity="1"
+ id="2131099668"
+ layout_width="-1"
+ layout_height="-2"
+ text="USERNAME"
+ singleLine="-1"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099813"/>
+</RelativeLayout>
+
+<RelativeLayout
+ layout_width="-1"
+ layout_height="-2"
+ layout_weight="1065353216">
+
+<se.maginteractive.rumble.view.AvatarView
+ layout_gravity="1"
+ id="2131099814"
+ layout_width="12801"
+ layout_height="12801"
+ src="2130837644"
+ layout_centerHorizontal="-1"/>
+
+<se.maginteractive.rumble.util.AdjustableTextView
+ textSize="4609"
+ textColor="2131230726"
+ ellipsize="0"
+ gravity="17"
+ layout_gravity="1"
+ id="2131099815"
+ layout_width="-1"
+ layout_height="-2"
+ text="OPPONENT"
+ singleLine="-1"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"
+ layout_below="2131099814"
+ layout_centerHorizontal="-1"/>
+</RelativeLayout>
+</LinearLayout>
+
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ layout_gravity="81"
+ id="2131099816"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="-1279"
+ text="2131165388"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ id="2131099817"
+ tag="1"
+ background="2130837659"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ onClick="showRound">
+
+<FrameLayout
+ id="2131099818"
+ background="2130837663"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="19"
+ id="2131099819"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="325"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ layout_gravity="5"
+ id="2131099820"
+ background="2130837700"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131099821"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="214"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099822"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="1793"
+ text="2131165389"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ id="2131099823"
+ tag="2"
+ background="2130837659"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ onClick="showRound">
+
+<FrameLayout
+ id="2131099824"
+ background="2130837663"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="16"
+ id="2131099825"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="325"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ layout_gravity="5"
+ id="2131099826"
+ background="2130837700"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131099827"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="214"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<TextView
+ textSize="4097"
+ textColor="2131230726"
+ layout_gravity="1"
+ id="2131099828"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginTop="1793"
+ text="2131165390"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ id="2131099829"
+ tag="3"
+ background="2130837659"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ onClick="showRound">
+
+<FrameLayout
+ id="2131099830"
+ background="2130837663"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="16"
+ id="2131099831"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="325"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+
+<FrameLayout
+ layout_gravity="5"
+ id="2131099832"
+ background="2130837700"
+ layout_width="15361"
+ layout_height="-1"
+ minWidth="15361"/>
+
+<TextView
+ textSize="5633"
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131099833"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ layout_marginRight="2561"
+ text="214"
+ shadowColor="2130706432"
+ shadowDx="0"
+ shadowDy="-1073741824"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<FrameLayout
+ id="2131099834"
+ background="2130837659"
+ layout_width="-1"
+ layout_height="12801"
+ layout_marginLeft="2561"
+ layout_marginTop="3841"
+ layout_marginRight="2561"
+ layout_marginBottom="2561">
+
+<TextView
+ textSize="6145"
+ textColor="2131230726"
+ layout_gravity="19"
+ id="2131099835"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginLeft="3841"
+ text="991"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230726"
+ layout_gravity="17"
+ id="2131099836"
+ layout_width="-2"
+ layout_height="-2"
+ text="2131165409"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+
+<TextView
+ textSize="6145"
+ textColor="2131230726"
+ layout_gravity="21"
+ id="2131099837"
+ layout_width="-2"
+ layout_height="-2"
+ layout_marginRight="3841"
+ text="513"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="1065353216"
+ shadowRadius="1065353216"/>
+</FrameLayout>
+
+<LinearLayout
+ layout_gravity="1"
+ layout_width="-2"
+ layout_height="-2">
+
+<Button
+ textSize="3841"
+ textColor="2131230726"
+ id="2131099838"
+ background="2130837606"
+ layout_width="-2"
+ layout_height="10241"
+ text="2131165384"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ onClick="showResignGameDialog"/>
+
+<Button
+ textSize="6401"
+ textColor="2131230726"
+ id="2131099793"
+ background="2130837601"
+ layout_width="38401"
+ layout_height="-2"
+ layout_marginLeft="2561"
+ text="2131165368"
+ shadowColor="-16777216"
+ shadowDx="0"
+ shadowDy="-1082130432"
+ shadowRadius="1065353216"
+ onClick="startGameActivity"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
