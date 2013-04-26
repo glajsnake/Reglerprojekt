@@ -13,11 +13,6 @@ img = mean(im, 3);
 peak = peakfinder(hist(img(:),255));
 
 imb = img > peak(find(peak==max(peak))) - std(img(:)); %img > mean(img(:))-std(img(:));%max(img(:))-( max(img(:)-min(img(:)))*.25 );
-shape = strel('disk', double(uint16(length(im)/300)), 0); %maybe throw to int
-
-imb = imdilate(imb,shape);
-imb = imerode(imb, shape);
-
 
 imlabels = bwlabel(bwconvhull(imb,'objects'));
 [row col v] = find(imlabels);
