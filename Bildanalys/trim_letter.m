@@ -1,15 +1,21 @@
-function trimmed_letter= trim_letter(im)
+function trimmed_letter = trim_letter(im)
 %TRIM_LETTER trims an image of a letter and a number assuming that the
 %letter is bigger than the number (pixels).
 
 
 shape = strel('disk', double(uint16(length(im)/10)), 0);
 
-threshold = 100;
-imb = im(:,:,1)<threshold & im(:,:,3)<threshold & im(:,:,2) < threshold;
-%merge ÅÄÖ to one blob
-imb = imdilate(imb,shape);
-imb = imerode(imb,shape);
+%nomalize
+im = im - min(im(:));
+im = im / max(im(:));
+
+threshold = 100/255;
+if size(im,3) == 3
+    imb = im(:,:,1)<threshold & im(:,:,3)<threshold & im(:,:,2) < threshold;
+else
+    imb = mean(im,3) < threshold;
+end
+
 [imlabels num] = bwlabel(bwconvhull(imb,'objects'));
 
 

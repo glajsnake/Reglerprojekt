@@ -16,35 +16,35 @@ function features = segment2features(segment)
 %  ]
 
 %% trim edges
-
-trimtop = 0;
-while segment(trimtop+1,:) == 0
-    trimtop = trimtop+1;
-end
-
-trimbottom = 0;
-while segment(end -trimbottom - 1,:) == 0
-    trimbottom = trimbottom+1;
-end
-
-trimleft = 0;
-while segment(:,trimleft+1) == 0
-    trimleft = trimleft+1;
-end
-
-trimright = 0;
-while segment(:,end - trimright - 1) == 0
-    trimright = trimright+1;
-end
-
-im = segment((trimtop+1):(end-trimbottom), (trimleft+1):(end - trimright),:);
 %grayscale
-im = mean(im,3);
+im = mean(segment,3);
 %normalize
 im = im - min(im(:));
 im = im / max(im(:));
 im = im < 0.5;
-figure(1);imagesc(im);colormap(gray);
+
+trimtop = 0;
+while im(trimtop+1,:) == 0
+    trimtop = trimtop+1;
+end
+
+trimbottom = 0;
+while im(end -trimbottom,:) == 0
+    trimbottom = trimbottom+1;
+end
+
+trimleft = 0;
+while im(:,trimleft+1) == 0
+    trimleft = trimleft+1;
+end
+
+trimright = 0;
+while im(:,end - trimright) == 0
+    trimright = trimright+1;
+end
+
+im = im((trimtop+1):(end-trimbottom), (trimleft+1):(end - trimright));
+
 %% find center of mass
 % the center of mass is assumed to be located in the middle of the trimmed
 % image, even though this is not true the result will be the same when we
