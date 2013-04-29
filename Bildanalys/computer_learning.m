@@ -1,12 +1,12 @@
 %COMPUTER_LEARNING extracts the features from the letter in the source folder 
 
 
-source = 'Bokstäver - trimmade';
+source = 'Reference';
 
 path = pwd;
 impath = [path(1:find(path == filesep, 1 , 'last')) source];
 
-alphabet = ['A':'Z' 'Å' 'Ä' 'Ö'];
+alphabet = 'A':'Z';
 alphabet_features = zeros(12,length(alphabet));
 alphabet_features(1,:) = alphabet;
 for currletter = 1:length(alphabet_features)
