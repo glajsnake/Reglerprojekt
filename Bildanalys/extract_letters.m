@@ -20,7 +20,6 @@ rect_trimmed = [min(row) min(col) max(row)-min(row) max(col)-min(col)]; %trimmed
 
 
 
-letters = cell(4);
 
 %extract letters
 for c = 1:4

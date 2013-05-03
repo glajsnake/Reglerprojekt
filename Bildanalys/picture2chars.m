@@ -1,10 +1,14 @@
 function chars = picture2chars(im)
 
-tim = transform(im);
-load screenrect
+screen = extract_screen(im);
+letters = extract_letters(screen);
 
-letters = extract_letters(tim, screenect);
+chars = zeros(1,length(letters.bw(:)));
 
+load alphabet_features.mat
+for i = 1:length(chars)
+    chars(i) = identify_letter(letters.image{i}, alphabet_features);
+end
 
 
 

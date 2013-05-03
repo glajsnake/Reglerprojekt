@@ -1,7 +1,9 @@
 function chars = picture2chars(im)
 
+screen = extract_screen(im);
+letters = extract_letters(screen);
 
-
+chars = zeros(lengt
 
 
 
