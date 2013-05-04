@@ -10,7 +10,7 @@ for i = 1:length(chars)
     chars(i) = identify_letter(letters.image{i}, alphabet_features);
 end
 
-
+chars = char(chars);
 
 
 end

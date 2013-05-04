@@ -21,25 +21,25 @@ im = mean(segment,3);
 %normalize
 im = im - min(im(:));
 im = im / max(im(:));
-im = im < 0.5;
+im = im > 0.5;
 
 trimtop = 0;
-while im(trimtop+1,:) == 0
+while im(trimtop+1,:) == 1
     trimtop = trimtop+1;
 end
 
 trimbottom = 0;
-while im(end -trimbottom,:) == 0
+while im(end -trimbottom,:) == 1
     trimbottom = trimbottom+1;
 end
 
 trimleft = 0;
-while im(:,trimleft+1) == 0
+while im(:,trimleft+1) == 1
     trimleft = trimleft+1;
 end
 
 trimright = 0;
-while im(:,end - trimright) == 0
+while im(:,end - trimright) == 1
     trimright = trimright+1;
 end
 

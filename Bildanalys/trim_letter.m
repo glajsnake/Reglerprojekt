@@ -6,14 +6,14 @@ function trimmed_letter = trim_letter(im)
 shape = strel('disk', double(uint16(length(im)/10)), 0);
 
 %nomalize
-im = im - min(im(:));
-im = im / max(im(:));
+imtrim = im - min(im(:));
+imtrim = imtrim / max(imtrim(:));
 
 threshold = 100/255;
-if size(im,3) == 3
-    imb = im(:,:,1)<threshold & im(:,:,3)<threshold & im(:,:,2) < threshold;
+if size(imtrim,3) == 3
+    imb = imtrim(:,:,1)<threshold & imtrim(:,:,3)<threshold & imtrim(:,:,2) < threshold;
 else
-    imb = mean(im,3) < threshold;
+    imb = mean(imtrim,3) < threshold;
 end
 
 [imlabels num] = bwlabel(bwconvhull(imb,'objects'));

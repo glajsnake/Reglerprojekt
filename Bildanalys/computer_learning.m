@@ -10,7 +10,8 @@ alphabet = 'A':'Z';
 alphabet_features = zeros(12,length(alphabet));
 alphabet_features(1,:) = alphabet;
 for i = 1:length(alphabet)
-    im = imread([impath filesep (i+'A'-1) '.png']);
+    im = imread([impath filesep alphabet(i) '.png']);
+    im = trim_letter(im);
     alphabet_features(2:end,i) = segment2features(im);
 end
 
