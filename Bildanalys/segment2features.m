@@ -21,7 +21,9 @@ im = mean(segment,3);
 %normalize
 im = im - min(im(:));
 im = im / max(im(:));
-im = im > 0.5;
+peak = peakfinder(hist(im(:),255));
+
+im = im > peak(find(peak==max(peak))) - std(im(:));
 
 trimtop = 0;
 while im(trimtop+1,:) == 1
