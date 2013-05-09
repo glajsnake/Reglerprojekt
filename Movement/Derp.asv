@@ -1,0 +1,12 @@
+driveB.Stop('off');
+data = driveB.ReadFromNXT();
+pos  = data.Position
+pause
+driveB.TachoLimit = pos + 100;
+driveB.SendToNXT();
+driveB.WaitFor();
+driveB.Stop('off');
+driveB.TachoLimit = pos-100;
+driveB.SendToNXT();
+driveB.WaitFor();
+driveB.Stop('off');
