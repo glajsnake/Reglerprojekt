@@ -1,3 +1,15 @@
+% Takes a string of letters (16, otherwise crash) and a list of words (advisable a dictionary hence the choice of input paramater)
+% This is made to solv the ruzzle game for smartphones
+% Letters will make up a playingfild looking like this:
+% 	 1  2  3  4 		
+%	 5  6  7  8
+%	 9 10 11 12
+%	13 14 15 16
+% Returns [words paths] where
+% words = ['word1' 'word2' ... 'wordN']
+% paths = ['path1' 'path2' ... 'pathN']
+% Where path1 is an array of cells containing the letternumbers
+% Ex: path1 = '1 2 3 4 7 10 13'
 function [words paths] = find_words(letters,dict)
 
 
@@ -35,7 +47,7 @@ paths = paths(is);
 
 end
 
-
+% This is the main function that executes a recursive search and returns all words and paths
 function [newords newpaths] = next_depth(word, path, letters, possiblepositions, dict, edof)
 newords = {};
 newpaths = {};

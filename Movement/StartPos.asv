@@ -1,0 +1,19 @@
+while switchState == false
+    revA.TachoLimit = 0;
+    revA.SendToNXT();
+    switchState = GetSwitch(portA, handle);
+end
+while switchState == false
+    revA.TachoLimit = 0;
+    revA.SendToNXT();
+    switchState = GetSwitch(portA, handle);
+end
+StopMotor(portA, 'brake');
+revA.Stop('off');
+revA.ResetPosition();
+driveA.Tacholimit = 10;
+driveA.SendToNXT();
+driveA.ResetPosition();
+
+
+
