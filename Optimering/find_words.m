@@ -55,7 +55,7 @@ for i = 1:length(possiblepositions) %check possible continuations
     neword = [word letters(possiblepositions(i))]; %add letter
     newpath = [path possiblepositions(i)];
     found_words = find(strncmp(neword, dict, length(neword))); %look for match
-    if length(found_words) > 0 & find(strcmp(dict(found_words(1)), neword))
+    if ~isempty(found_words) & find(strcmp(dict(found_words(1)), neword))
         newords{end+1} = neword; %add word
         newpaths{end+1} = newpath; %add path
         if length(found_words) > 1 %if more words starting with this word. ex: "BOOK" and "BOOKS"
@@ -65,7 +65,7 @@ for i = 1:length(possiblepositions) %check possible continuations
             newpaths = [newpaths next_paths];
         end
         
-    elseif length(found_words) >= 1 %if this is not a word but the start is good. ex: "SWOR"
+    elseif ~isempty(found_words) %if this is not a word but the start is good. ex: "SWOR"
             next_possiblepositions = next_letters(edof,newpath); %check for possible path
             [next_words next_paths] = next_depth(neword, newpath, letters, next_possiblepositions, dict(found_words), edof);%test next
             newords = [newords next_words]; 
