@@ -1,4 +1,4 @@
-function [chars bonus] = picture2chars(im)
+function chars = picture2chars(im)
 
 screen = extract_screen(im);
 letters = extract_letters(screen);
@@ -10,7 +10,7 @@ bonus = cell(1,length(letters.bw(:)));
 load alphabet_features.mat
 for i = 1:length(chars)
     chars(i) = identify_letter(letters.image{i}, alphabet_features);
-    bonus{i} = identify_bonus(letters.image{i});
+    bonus{i} = ident
 end
 
 chars = char(chars);

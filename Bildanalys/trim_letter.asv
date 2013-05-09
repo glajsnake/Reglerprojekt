@@ -3,16 +3,21 @@ function trimmed_letter = trim_letter(im)
 %letter is bigger than the number (pixels).
 
 
-%grayscale
-imtrim = mean(im,3);
-%normalize
-imtrim = imtrim - min(imtrim(:));
-imtrim = imtrim / max(imtrim(:));
-peak = peakfinder(hist(imtrim(:),255)) / 255;
+%nomalize
+imtrim = mean(
+imtrim = im - min(im(:));
+imtrim = double(imtrim / max(imtrim(:)));
 
-imb = imtrim > max(peak) - 2*std(imtrim(:));
+peak = peakfinder(hist(imtrim(:),255));
+
+threshold = max(peak) - std(imtrim(:));
 
 
+if size(imtrim,3) == 3
+    imb = imtrim(:,:,1)<threshold & imtrim(:,:,3)<threshold & imtrim(:,:,2) < threshold;
+else
+    imb = mean(imtrim,3) > threshold;
+end
 
 [imlabels num] = bwlabel(bwconvhull(~imb,'objects'));
 
@@ -33,6 +38,6 @@ lce = max(col(value==letterlabel));
 
 
 
-trimmed_letter = imb(lrb:lre, lcb:lce,:);
+trimmed_letter = im(lrb:lre, lcb:lce,:);
 
 

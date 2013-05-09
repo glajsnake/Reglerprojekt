@@ -1,5 +1,5 @@
 function features = segment2features(segment)
-% segment2features returns a list of features in the trimmed binary image segment
+% segment2features returns a list of features in the binary image segment
 % features is a vector containing 
 %  [
 %   1. the intensity of ones in the image
@@ -15,14 +15,46 @@ function features = segment2features(segment)
 %   11. the intensity of ones in the y-derivative
 %  ]
 
+%% trim edges
+%grayscale
+im = mean(segment,3);
+%normalize
+im = im - min(im(:));
+im = im / max(im(:));
+peak = peakfinder(hist(im(:),255)) / 255;
+
+im = im > max(peak) - 2*std(im(:));
+
+trimtop = 1;
+while im(trimtop+1,:) == 1
+    trimtop = trimtop+1;
+end
+
+trimbottom = 1;
+while im(end -trimbottom,:) == 1
+    trimbottom = trimbottom+1;
+end
+
+trimleft = 1;
+while im(:,trimleft+1) == 1
+    trimleft = trimleft+1;
+end
+
+trimright = 1;
+while im(:,end - trimright) == 1
+    trimright = trimright+1;
+end
+
+im = im((trimtop+1):(end-trimbottom), (trimleft+1):(end - trimright));
+
 %% find center of mass
 % the center of mass is assumed to be located in the middle of the trimmed
 % image, even though this is not true the result will be the same when we
 % compare the features of different images. If the number of rows/columns
 % the middle row/column is ignored.
 
-hh = size(segment,1)/2;
-hw = size(segment,2)/2;
+hh = size(im,1)/2;
+hw = size(im,2)/2;
 
 if mod(hh,1) == 0.5 %then we have a odd number of rows
     top = 1:(hh-0.5);
@@ -42,50 +74,50 @@ end
 
 %% intensity of ones
 
-    ntot =  sum(segment(:))/(4 * hw * hh);
+    ntot =  sum(im(:))/(4 * hw * hh);
     
 %% the number of ones above the center of mass
 
-    nabove = sum(sum(segment(top,:)))/(length(top) * 2 * hw); 
+    nabove = sum(sum(im(top,:)))/(length(top) * 2 * hw); 
     
 %% the number of ones below the center of mass
 
-    nbelow = sum(sum(segment(bottom,:))) / (length(bottom) * 2 * hw); 
+    nbelow = sum(sum(im(bottom,:))) / (length(bottom) * 2 * hw); 
     
 %% vertical symmetry
     
-    symy = sum(sum(segment(top,:) == segment(bottom(end:-1:1), :))) / (length(top) * 2 * hw);
+    symy = sum(sum(im(top,:) == im(bottom(end:-1:1), :))) / (length(top) * 2 * hw);
     
 %% vertical odd symmetry
        
-    osymy = sum(sum(segment(top,:) == segment(bottom(end:-1:1), end:-1:1))) / (length(top) * 2 * hw);
+    osymy = sum(sum(im(top,:) == im(bottom(end:-1:1), end:-1:1))) / (length(top) * 2 * hw);
 
     
 %% the number of ones left of the center of mass
 
-    nleft = sum(sum(segment(:,left))) / (length(left) * 2 * hh); 
+    nleft = sum(sum(im(:,left))) / (length(left) * 2 * hh); 
     
 %% the number of ones right of the center of mass
 
-    nright = sum(sum(segment(:,right))) / (length(right) * 2 * hh);  
+    nright = sum(sum(im(:,right))) / (length(right) * 2 * hh);  
     
 %% horizontal symmetry
     
-    symx = sum(sum(segment(:,left) == segment(:,right(end:-1:1)))) / (length(left) * 2 * hh);
+    symx = sum(sum(im(:,left) == im(:,right(end:-1:1)))) / (length(left) * 2 * hh);
     
 %% horizontal odd symmetry
        
-    osymx = sum(sum(segment(:,left) == segment(end:-1:1,right(end:-1:1)))) / (length(left) * 2 * hh);
+    osymx = sum(sum(im(:,left) == im(end:-1:1,right(end:-1:1)))) / (length(left) * 2 * hh);
 
 %% the intensity of ones in the x-derivative
     
     dxfilter = [1 -1];    
-    dx = sum(sum(abs(conv2(double(segment), dxfilter)))) / (4 * hw * hh);
+    dx = sum(sum(abs(conv2(double(im), dxfilter)))) / (4 * hw * hh);
 
 %% the intensity of ones in the y-derivative
     
     dyfilter = [1 -1]';    
-    dy = sum(sum(abs(conv2(double(segment), dyfilter)))) / (4 * hw * hh);
+    dy = sum(sum(abs(conv2(double(im), dyfilter)))) / (4 * hw * hh);
     
 
 %% The result
