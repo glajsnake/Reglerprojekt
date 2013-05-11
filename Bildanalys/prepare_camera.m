@@ -1,5 +1,3 @@
-function vid = prepare_camera()
-
 imaqreset;
 videos = imaqhwinfo('winvideo');
 

@@ -35,10 +35,9 @@ for c = 1:4
         corner = [max(nrow), max(ncol)];
         
         %segment image
-        letters.image{c,r} = im( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
-                                 max(1,round(corner(2)-0.2*rect_trimmed(4))):corner(2) , :);
-        letters.rect{c,r} = [max(1,round(corner(1)-0.2*rect_trimmed(3))), corner(1), max(1,round(corner(2)-0.2*rect_trimmed(4))), corner(2)];
-        letters.bw{c,r} = imb( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
-                                 max(1,round(corner(2)-0.2*rect_trimmed(4))):corner(2) , :);
+        letters{r + (c-1)*4} = im( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
+                                   max(1,round(corner(2)-0.2*rect_trimmed(4))):corner(2) , :);
+
     end
 end
+

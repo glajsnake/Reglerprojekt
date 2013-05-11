@@ -1,3 +1,3 @@
 function im = acImage(vid)
 
-rgbImage = getsnapshot(vid);
+im = getsnapshot(vid);
