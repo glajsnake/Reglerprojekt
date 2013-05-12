@@ -31,7 +31,7 @@ edof = [3  2  5  6  0  0  0  0  0
         3  11 12 15 0  0  0  0  0];
 
 
-tic
+
 words = {};
 paths = {};
 for i = 1:length(letters)
@@ -39,7 +39,7 @@ for i = 1:length(letters)
     words = [words new_words];
     paths = [paths new_paths];
 end
-toc
+
  s=cellfun(@size,words,'uniform',false);
 [trash is]=sortrows(cat(1,s{:}),-[1 2]);
 words = words(is);

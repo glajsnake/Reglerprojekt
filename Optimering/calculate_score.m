@@ -1,4 +1,4 @@
-function [words scores] = calculate_scores(words, bonus_tokens)
+function scores = calculate_scores(words, bonus_tokens)
 
 scores = zeros(1,length(words));
 load letter_scores.mat
@@ -27,9 +27,7 @@ for i = 1:length(words)
         
     end
     scores(i) = score*multiplier;
-    [scores index] = sort(scores, 'descend');
-    
-    words = words(index);
+
 end
 
 
