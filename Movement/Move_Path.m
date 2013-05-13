@@ -12,5 +12,5 @@ for i = 1:(length(path)-1)
     dy = fy-sy;
     
     
-    Move(dx,dy);
+    Move(motors,dx,dy);
 end

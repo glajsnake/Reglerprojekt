@@ -5,6 +5,8 @@ addpath('Movement\');
 load alphabet_features.mat;
 load dictionary;
 
+%% Activate NXT and declare motors
+Prepare;
 %% move the phone to the start position
 StartPos;
 %% prepare camera and make sure the camera is in the right position

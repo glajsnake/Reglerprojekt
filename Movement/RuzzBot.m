@@ -6,19 +6,18 @@ StartPos
 driveA.TachoLimit = 105;
 driveA.SendToNXT();
 driveA.WaitFor();
-driveA.Stop('off');
 driveA.ResetPosition();
 
 %% kör sida till sida
 
-Move(motors, 7, 4)
-Move(motors, 3, 4)
-Move(motors, 7, 4)
-Move(motors, 3, 4)
-Move(motors, 7, 4)
-Move(motors, 3, 4)
-Move(motors, 7, 4)
-Move(motors, 3, 4)
+% Move(motors, 7, 4)
+% Move(motors, 3, 4)
+% Move(motors, 7, 4)
+% Move(motors, 3, 4)
+% Move(motors, 7, 4)
+% Move(motors, 3, 4)
+% Move(motors, 7, 4)
+% Move(motors, 3, 4)
 
 %% kör fram och tillbaka
 
