@@ -1,11 +1,12 @@
 addpath('Bildanalys\');
 addpath('Optimering\');
+addpath('Movement\');
 
 load alphabet_features.mat;
 load dictionary;
 
-%%
-%TODO: move to start position
+%% move the phone to the start position
+StartPos;
 %% prepare camera and make sure the camera is in the right position
 
 prepare_camera;
