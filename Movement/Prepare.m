@@ -1,8 +1,3 @@
-%% Prepare
-COM_CloseNXT all
-close all
-clear all
-
 %% Connect to NXT, via USB or BT
 handle = COM_OpenNXT();
 COM_SetDefaultNXT(handle);

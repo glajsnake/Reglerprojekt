@@ -2,8 +2,8 @@ function Move (motors, dx, dy)
     
     horiStandard = 34;
     vertiStandard = 31;
-    RunX;
-    RunY;
+    RunX = 0;
+    RunY = 0;
     
     if dx>0
         motors(3).Tacholimit = horiStandard*dx;

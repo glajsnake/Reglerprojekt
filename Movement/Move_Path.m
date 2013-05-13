@@ -1,6 +1,6 @@
 %MOVE_TOFROM moves the pen from start to finish
 % intended use is for moving the pen between words
-function Move_Path(path)
+function Move_Path(motors, path)
 %find coordinate
 positions = reshape(1:16,[4 4])';
 

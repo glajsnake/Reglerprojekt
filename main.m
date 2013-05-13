@@ -1,8 +1,14 @@
+%% Clean
+COM_CloseNXT all
+close all
+clear all
+
+%% Import
 addpath('Bildanalys\');
 addpath('Optimering\');
 addpath('Movement\');
 
-load alphabet_features.mat;
+load alphabet_features;
 load dictionary;
 
 %% Activate NXT and declare motors
@@ -26,8 +32,15 @@ im = acImage(vid);
 
 %%
 %TODO: take all words
-Move_Path([16 paths{1}(1)]);
+driveA.TachoLimit = 105;
+driveA.SendToNXT();
+driveA.WaitFor();
+driveA.ResetPosition();
+
+Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)
-    Move_Path(paths{i});
-    Move_Path([paths{i}(end) paths{i+1}(1)]); 
+    Push;
+    Move_Path(motors, paths{i});
+    Lift;
+    Move_Path(motors, [paths{i}(end) paths{i+1}(1)]); 
 end
