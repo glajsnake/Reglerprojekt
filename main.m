@@ -24,3 +24,8 @@ im = acImage(vid);
 
 %%
 %TODO: take all words
+Move_Path([16 paths{1}(1)]);
+for i = 1:length(paths)
+    Move_Path(paths{i});
+    Move_Path([paths{i}(end) paths{i+1}(1)]); 
+end
