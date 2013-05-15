@@ -1,3 +1,3 @@
-revC.TachoLimit = 13;
+revC.TachoLimit = 39;
 revC.SendToNXT();
 revC.WaitFor();

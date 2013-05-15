@@ -1,32 +1,50 @@
 function Move (motors, dx, dy)
     
-    horiStandard = 34;
-    vertiStandard = 31;
+    horiStandard = 44;
+    vertiStandard = 40;
     RunX = 0;
     RunY = 0;
+    doX = 1;
+    doY = 1;
     
     if dx>0
-        motors(3).Tacholimit = horiStandard*dx;
+        motors(3).TachoLimit = horiStandard*dx;
         RunX = 3;
-    else 
-        motors(4).Tacholimit = horiStandard*(-dx);
+    elseif dx<0
+        motors(4).TachoLimit = horiStandard*(-dx);
         RunX = 4;
+    else
+        doX = 0;
     end
     
     if dy>0
-        motors(2).Tacholimit = vertiStandard*dy;
+        motors(2).TachoLimit = vertiStandard*dy;
         RunY = 2;
-    else
-        motors(1).Tacholimit = vertiStandard*(-dy);
+    elseif dy<0
+        motors(1).TachoLimit = vertiStandard*(-dy);
         RunY = 1;
+    else
+        doY = 0;
     end
     
-    motors(RunX).SendToNXT();
-    motors(RunY).SendToNXT();
+    if doX == 1
+    motors(RunX).SendToNXT();    
+    end
+    if doY == 1
+    motors(RunY).SendToNXT();    
+    end
+    if doX == 1
     motors(RunX).WaitFor();
-    motors(RunY).WaitFor();
+    end
+    if doY == 1
+        motors(RunY).WaitFor();
+    end
+    if doX == 1
     motors(RunX).ResetPosition();
+    end
+    if doY == 1
     motors(RunY).ResetPosition();
+    end
     
 %     switch dir %What direction, 1=camerawards 5=entrywards
 %         case 1 

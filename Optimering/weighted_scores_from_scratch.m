@@ -4,13 +4,14 @@ function [weighted_scores words paths] = weighted_scores_from_scratch(letters, b
 % returns a sorted vector of the word scores divided by the length of the
 % word. Also returns the words and paths.
 
-tic
+
 if ~exist('dictionary','var')
     load dictionary.mat
 end
 
 
 [words paths] = find_words(letters, dictionary);
+tic
 word_tokens = build_words_tokens(paths, bonus_tokens);
 scores = calculate_score(words, word_tokens);
 

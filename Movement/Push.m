@@ -1,3 +1,3 @@
-driveC.TachoLimit = 13;
+driveC.TachoLimit = 39;
 driveC.SendToNXT();
 driveC.WaitFor();

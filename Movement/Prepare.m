@@ -10,26 +10,17 @@ portC = MOTOR_C;
 
 %% Create motor objects
 % we use holdbrake, make sense for robotics
-driveA    = NXTMotor(portA, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
-revA  = NXTMotor(portA, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
-driveB    = NXTMotor(portB, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
-revB  = NXTMotor(portB, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
+negY    = NXTMotor(portA, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
+posY  = NXTMotor(portA, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
+posX    = NXTMotor(portB, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
+negX  = NXTMotor(portB, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
 driveC = NXTMotor(portC, 'Power', power, 'ActionAtTachoLimit', 'HoldBrake');
 revC = NXTMotor(portC, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
-motors = [driveA, revA, driveB, revB, driveC, revC];
+motors = [negY, posY, posX, negX, driveC, revC];
 
 
 %% Prepare motors
-driveA.Stop('off');
-driveA.ResetPosition();
-revA.Stop('off');
-revA.ResetPosition();
-driveB.Stop('off');
-driveB.ResetPosition();
-revB.Stop('off');
-revB.ResetPosition();
-driveC.Stop('off');
-driveC.ResetPosition();
-revC.Stop('off');
-revC.ResetPosition();
-
+for i=1:6
+    motors(i).Stop('off');
+    motors(i).ResetPosition();
+end

@@ -4,16 +4,16 @@ OpenSwitch(SENSOR_2);
 switchState1 = GetSwitch(SENSOR_1);
 switchState2 = GetSwitch(SENSOR_2);
 
-%% Run 'till pushed
+%% Run till pushed
 while switchState1 == false
-    revA.TachoLimit = 0;
-    revA.SendToNXT();
+    posY.TachoLimit = 0;
+    posY.SendToNXT();
     switchState1 = GetSwitch(portA, handle);
 end
 StopMotor(portA, 'brake');
 while switchState2 == false
-    driveB.TachoLimit = 0;
-    driveB.SendToNXT();
+    posX.TachoLimit = 0;
+    posX.SendToNXT();
     switchState2 = GetSwitch(portB, handle);
 end
 StopMotor(portB, 'brake');
@@ -21,10 +21,10 @@ StopMotor(portB, 'brake');
 %% Cleanup
 CloseSensor(SENSOR_1);
 CloseSensor(SENSOR_2);
-revA.Stop('off');
-revA.ResetPosition();
-driveB.Stop('off');
-driveB.ResetPosition();
+posY.Stop('off');
+posY.ResetPosition();
+posX.Stop('off');
+posX.ResetPosition();
 
 
 

@@ -31,16 +31,16 @@ camera_lineup;
 im = acImage(vid);
 [letters bonus_tokens] = picture2chars(im, alphabet_features);
 [weighted_scores words paths] = weighted_scores_from_scratch(letters, bonus_tokens);
-[weighted_scores index] = sort(weighted_scores, 'descending');
+[weighted_scores index] = sort(weighted_scores, 'descend');
 paths = paths(index);
 words = words(index);
 
 %%
 %TODO: take all words
-driveA.TachoLimit = 105;
-driveA.SendToNXT();
-driveA.WaitFor();
-driveA.ResetPosition();
+negY.TachoLimit = 105;
+negY.SendToNXT();
+negY.WaitFor();
+negY.ResetPosition();
 
 Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)

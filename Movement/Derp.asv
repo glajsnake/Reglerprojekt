@@ -1,12 +1,15 @@
-driveB.Stop('off');
-data = driveB.ReadFromNXT();
-pos  = data.Position
-pause
-driveB.TachoLimit = pos + 100;
-driveB.SendToNXT();
-driveB.WaitFor();
-driveB.Stop('off');
-driveB.TachoLimit = pos-100;
-driveB.SendToNXT();
-driveB.WaitFor();
-driveB.Stop('off');
+% i = 0;
+% while i < 20
+%     i = i + 1;
+%     negX.TachoLimit = 2;
+%     negX.SendToNXT();
+%     negX.WaitFor();
+%     negX.ResetPosition();
+% end
+
+% posX.TachoLimit = 20;
+% posX.SendToNXT();
+% posX.WaitFor();
+% tic
+% posX.ResetPosition();
+% toc
