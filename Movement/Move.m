@@ -9,7 +9,7 @@ function Move (motors, dx, dy)
         motors(3).Tacholimit = horiStandard*dx;
         RunX = 3;
     else 
-        motors(4).Tacholimit = horistandard*(-dx);
+        motors(4).Tacholimit = horiStandard*(-dx);
         RunX = 4;
     end
     

@@ -88,7 +88,7 @@ end
 %------------------------------------------------
 function [BW,method,conn] = parseInputs(varargin)
 
-narginchk(1,3);
+%narginchk(1,3);
 
 BW = varargin{1};
 validateattributes(BW, {'logical' 'numeric'}, {'2d', 'real', 'nonsparse'}, ...
