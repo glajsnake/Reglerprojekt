@@ -1,0 +1,32 @@
+<project name="Parser" default="parserJcc" basedir=".">
+    <description>
+        Parser application
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="."/>
+  <property name="build" location="."/>
+
+  <property environment="env"/>
+  <property name="javacc" location="${env.JAVACC_HOME}"/>
+
+  <target name="parserJtree"
+          description="Parser generation">
+    <jjtree 
+       target="Parser.jjt" 
+       outputdirectory="${build}"
+       javacchome="${javacc}"
+       nodeusesparser="true"
+       />
+  </target>
+
+  <target name="parserJcc" depends="parserJtree"
+          description="Parser generation">
+    <javacc
+       target="${src}/Parser.jj"
+       outputdirectory="${build}"
+       javacchome="${javacc}"
+       />
+       <!-- debugparser="true" -->
+  </target>
+
+</project>

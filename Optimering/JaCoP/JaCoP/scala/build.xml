@@ -1,0 +1,67 @@
+<project name="JaCoP" default="compile" basedir=".">
+    <description>
+        Scala wrapper for JaCoP
+    </description>
+
+ <property environment="env"/>
+
+ <property
+    name="scala.home"
+    value="${env.SCALA_HOME}"
+     />
+ <property
+    name="base.dir"
+    value="${basedir}"
+     />
+ <property
+    name="jacop.dir"
+    value="${basedir}/../.."
+     />
+
+ <property
+    name="sources.dir"
+    value="${jacop.dir}/JaCoP/scala"
+     />
+  <property
+    name="build.dir"
+    value="${jacop.dir}"
+     />
+
+  <target name="init">
+    <tstamp/>
+    <property
+      name="scala-library.jar"
+      value="${scala.home}/lib/scala-library.jar"
+       />
+    <path id="build.classpath">
+      <pathelement location="${scala-library.jar}"   />
+      <!--<pathelement location="${your.path}"   />-->
+      <pathelement location="${build.dir}"   />
+    </path>
+    <taskdef resource="scala/tools/ant/antlib.xml">
+      <classpath>
+        <pathelement location="${scala.home}/lib/scala-compiler.jar"   />
+        <pathelement location="${scala-library.jar}"   />
+      </classpath>
+    </taskdef>
+  </target>
+
+  <target name="compile" depends="init">
+
+    <scalac srcdir="${sources.dir}"
+            destdir="${build.dir}"
+	    deprecation="yes">
+<!--            classpathref="${build.dir}">-->
+      <include name="**/*.scala"/>
+      <!--<exclude name="forget/**/*.scala"   />-->
+      <classpath>
+        <pathelement location="${sources.dir}"/>
+        <pathelement location="${build.dir}"/>
+        <pathelement location="${base.dir}"/>
+        <pathelement location="${scala-library.jar}"/>
+        <pathelement location="${jacop.dir}"/>
+      </classpath>
+    </scalac>
+  </target>
+
+</project>

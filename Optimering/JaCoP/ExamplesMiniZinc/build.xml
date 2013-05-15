@@ -1,0 +1,55 @@
+<project name="MiniZinc" default="run" basedir=".">
+    <description>
+        Run MiniZinc Models with JaCoP
+    </description>
+  <!-- set global properties for this build -->
+
+  
+  <property name="src" location="${work}/ExamplesMiniZinc"/>
+  <property name="build" location="${work}/ExamplesMiniZinc"/>
+  <property name="work" location="${user.home}/research/JaCoP-3.0-RC2"/>
+  <property name="jacop" location="${work}"/>
+
+  <property name="example" value="parcel"/>
+
+  <target name="run" depends="mzn"
+        description="Executing the Parser application" >
+
+    <!-- Execution of the java code from ${build} -->
+    <java classname="JaCoP.fz.Fz2jacop" fork="yes">
+    <jvmarg value="-server"/>
+      <classpath>
+        <pathelement location="${work}"/>
+        <pathelement location="${build}"/>
+      </classpath>
+      <!-- <assertions> <enable/> </assertions> -->
+      <arg value="-s"/>
+      <arg value="${example}.fzn"/>
+    </java>
+  </target>
+
+<target name="mzn">
+  <exec executable="mzn2fzn">
+    <!-- stupid specification of options but otherwise mzn2fzn does not recognize the option ;( -->
+    <arg value="--no-output-pred-decls"/>
+    <!-- -G option or varibale MZN_STDLIB_DIR if lib is in lib/minizinc/ -->
+    <arg value="-I"/>
+    <arg value="${work}/JaCoP/fz/mznlib"/>
+    <arg value="-I"/>
+    <arg value="${work}/ExamplesMiniZinc"/>
+    <arg value="${example}.mzn"/>
+  </exec>
+</target>
+
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+
+    <delete >
+      <fileset dir="${src}">
+        <include name="*.class"/>
+      </fileset>
+    </delete>
+  </target>
+</project>
