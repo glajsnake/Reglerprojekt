@@ -1,5 +1,4 @@
 %% Clean
-COM_CloseNXT all
 close all
 clear all
 
@@ -7,6 +6,10 @@ clear all
 addpath('Bildanalys\');
 addpath('Optimering\');
 addpath('Movement\');
+addpath('RWTHMindstormsNXT\');
+addpath('RWTHMindstormsNXT\tools\');
+
+COM_CloseNXT all
 
 load alphabet_features;
 load dictionary;
@@ -27,8 +30,10 @@ camera_lineup;
 %% Take a picture of the playing field, analyse and find all possible words
 im = acImage(vid);
 [letters bonus_tokens] = picture2chars(im, alphabet_features);
-[words paths] = find_words(letters, dictionary);
-
+[weighted_scores words paths] = weighted_scores_from_scratch(letters, bonus_tokens);
+[weighted_scores index] = sort(weighted_scores, 'descending');
+paths = paths(index);
+words = words(index);
 
 %%
 %TODO: take all words
