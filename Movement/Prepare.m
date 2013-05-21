@@ -21,6 +21,5 @@ motors = [negY, posY, posX, negX, driveC, revC];
 
 %% Prepare motors
 for i=1:6
-    motors(i).Stop('off');
     motors(i).ResetPosition();
 end

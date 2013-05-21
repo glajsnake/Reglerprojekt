@@ -29,21 +29,22 @@ camera_lineup;
 
 %% Take a picture of the playing field, analyse and find all possible words
 im = acImage(vid);
-[letters bonus_tokens] = picture2chars(im, alphabet_features)
+[letters bonus_tokens] = picture2chars(im, alphabet_features);
 [scores words paths] = scores_from_scratch(letters, bonus_tokens);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
-words = words(index)
+words = words(index);
 
 %%
 %TODO: take all words
-dist = 100;
-negY.TachoLimit = dist;
+negY.TachoLimit = 95;
 negY.SendToNXT();
 negY.WaitFor();
-data = negY.ReadFromNXT();
-backlashy(abs(data.Position) - dist)
 negY.ResetPosition();
+posY.TachoLimit = 5;
+posY.SendToNXT();
+posY.WaitFor();
+posY.ResetPosition;
 
 
 Move_Path(motors, [16 paths{1}(1)]);

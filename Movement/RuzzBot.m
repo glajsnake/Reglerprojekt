@@ -7,16 +7,25 @@ load startxy;
 Prepare
 StartPos
 
-negY.TachoLimit = 95;
+negY.WaitFor();
+
+dist = 100;
+negY.TachoLimit = dist;
 negY.SendToNXT();
 negY.WaitFor();
+
+
+data = negY.ReadFromNXT();
+backlashy(abs(data.Position) - dist)
 negY.ResetPosition();
 
-posY.TachoLimit = 15;
-posY.SendToNXT();
-posY.WaitFor();
-posY.ResetPosition;
 
 
+% datay = negY.ReadFromNXT();
+% by = datay.Position;
+% 
+% backlashy(dist-by);
+% backlashx(0);
+% negY.ResetPosition();
 
 
