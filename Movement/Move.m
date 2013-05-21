@@ -1,7 +1,7 @@
 function Move (motors, dx, dy)
     
-    horiStandard = 44;
-    vertiStandard = 40;
+    horiStandard = 145;
+    vertiStandard = 135;
     RunX = 0;
     RunY = 0;
     doX = 1;

@@ -13,7 +13,7 @@ end
 [words paths] = find_words(letters, dictionary);
 tic
 word_tokens = build_words_tokens(paths, bonus_tokens);
-scores = calculate_score(words, word_tokens);
+scores = calculate_scores(words, word_tokens);
 
 weighted_scores = zeros(length(scores),1);
 

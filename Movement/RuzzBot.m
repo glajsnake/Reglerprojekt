@@ -2,6 +2,8 @@ close all
 clear all
 COM_CloseNXT all
 
+load startxy;
+
 Prepare
 StartPos
 
@@ -10,7 +12,11 @@ negY.SendToNXT();
 negY.WaitFor();
 negY.ResetPosition();
 
-Move(motors, -2, 0)
-Move(motors, 0, -2)
-Move(motors, 2, 0)
-Move(motors, 0, 2)
+posY.TachoLimit = 15;
+posY.SendToNXT();
+posY.WaitFor();
+posY.ResetPosition;
+
+
+
+
