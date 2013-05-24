@@ -4,7 +4,7 @@ persistent lasty;
 
 
 horiStandard = 48;
-vertiStandard = 45;
+vertiStandard = 40;
 RunX = 0;
 RunY = 0;
 doX = 1;
