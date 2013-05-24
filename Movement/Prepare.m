@@ -3,7 +3,7 @@ handle = COM_OpenNXT();
 COM_SetDefaultNXT(handle);
 
 %% Set params
-power = 10;
+power = 50;
 portA = MOTOR_A;
 portB = MOTOR_B;
 portC = MOTOR_C;

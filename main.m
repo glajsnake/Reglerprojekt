@@ -45,7 +45,7 @@ words = uwords(index);
 
 %%
 %TODO: take all words
-dist = 100;
+dist = 93;
 negY.TachoLimit = dist;
 negY.SendToNXT();
 negY.WaitFor();
