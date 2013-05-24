@@ -35,16 +35,23 @@ im = acImage(vid);
 paths = paths(index);
 words = words(index);
 
+[uwords uindex]= unique(words,'first');
+upaths = paths(uindex);
+uscores = scores(uindex);
+
+[uscores index] = sort(uscores, 'descend');
+upaths = upaths(index);
+uwords = uwords(index);
+
 %%
 %TODO: take all words
-negY.TachoLimit = 95;
+dist = 100;
+negY.TachoLimit = dist;
 negY.SendToNXT();
 negY.WaitFor();
+data = negY.ReadFromNXT();
+backlashy(abs(data.Position) - dist)
 negY.ResetPosition();
-posY.TachoLimit = 5;
-posY.SendToNXT();
-posY.WaitFor();
-posY.ResetPosition;
 
 
 Move_Path(motors, [16 paths{1}(1)]);
