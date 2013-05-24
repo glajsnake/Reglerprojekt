@@ -8,6 +8,7 @@ addpath('Optimering\');
 addpath('Movement\');
 addpath('RWTHMindstormsNXT\');
 addpath('RWTHMindstormsNXT\tools\');
+addpath('libusb-win32-bin-1.2.6.0\');
 
 COM_CloseNXT all
 
@@ -28,12 +29,15 @@ camera_lineup;
 
 
 %% Take a picture of the playing field, analyse and find all possible words
-im = acImage(vid);
+maintic = tic;
+
+disp('Taking picture');
+im = acImage(vid); toc(maintic);
 [letters bonus_tokens] = picture2chars(im, alphabet_features)
 [scores words paths] = scores_from_scratch(letters, bonus_tokens);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
-words = words(index)
+words = words(index);
 
 %%
 %TODO: take all words
@@ -48,6 +52,9 @@ negY.ResetPosition();
 
 Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)
+    if toc(maintoc) > 20
+        break;
+    end
     Push;
     Move_Path(motors, paths{i});
     Lift;
