@@ -31,9 +31,33 @@ camera_lineup;
 %% Take a picture of the playing field, analyse and find all possible words
 maintic = tic;
 
-disp('Taking picture');
+disp('Taking picture...');
 im = acImage(vid); toc(maintic);
-[letters bonus_tokens] = picture2chars(im, alphabet_features)
+disp('Done\n');
+disp('Image analysis');
+%-------picture2chars-----------------------------------------------
+disp('    Extracting screen...');
+screen = extract_screen(im);
+disp('Done\n');
+disp('    Extracting letter images...');
+letters = extract_letters(screen);
+chars = zeros(1,length(letters));
+bonus = cell(1,length(letters));
+disp('Done\n');
+disp('    Identifying letters...');
+for i = 1:length(chars)
+    chars(i) = identify_letter(letters{i}, alphabet_features);
+    bonus{i} = identify_bonus(letters{i});
+end
+disp('Done\n');
+disp(['Letters: ' chars '\n']);
+disp(['Bonus tokens: ' bonus '\n']);
+
+chars = char(chars);
+toc; disp('\n');
+%--------------------------------------------------------------------
+
+
 [scores words paths] = scores_from_scratch(letters, bonus_tokens);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
