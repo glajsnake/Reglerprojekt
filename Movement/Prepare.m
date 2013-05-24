@@ -10,12 +10,12 @@ portC = MOTOR_C;
 
 %% Create motor objects
 % we use holdbrake, make sense for robotics
-negY    = NXTMotor(portA, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
-posY  = NXTMotor(portA, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
-posX    = NXTMotor(portB, 'Power',  power, 'ActionAtTachoLimit', 'HoldBrake');
-negX  = NXTMotor(portB, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
-driveC = NXTMotor(portC, 'Power', power, 'ActionAtTachoLimit', 'HoldBrake');
-revC = NXTMotor(portC, 'Power', -power, 'ActionAtTachoLimit', 'HoldBrake');
+negY    = NXTMotor(portA, 'Power',  power, 'ActionAtTachoLimit', 'Brake');
+posY  = NXTMotor(portA, 'Power', -power, 'ActionAtTachoLimit', 'Brake');
+posX    = NXTMotor(portB, 'Power',  power, 'ActionAtTachoLimit', 'Brake');
+negX  = NXTMotor(portB, 'Power', -power, 'ActionAtTachoLimit', 'Brake');
+driveC = NXTMotor(portC, 'Power', power, 'ActionAtTachoLimit', 'Brake');
+revC = NXTMotor(portC, 'Power', -power, 'ActionAtTachoLimit', 'Brake');
 motors = [negY, posY, posX, negX, driveC, revC];
 
 
