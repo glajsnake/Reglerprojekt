@@ -22,9 +22,8 @@ StopMotor(portB, 'nobrake');
 %% Cleanup
 CloseSensor(SENSOR_1);
 CloseSensor(SENSOR_2);
-for i = 1:4
-    motors(i).ResetPosition();
-end
+posY.ResetPosition();
+posX.ResetPosition();
 
 backlashy(0);
 backlashx(0);

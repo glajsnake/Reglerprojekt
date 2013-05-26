@@ -29,10 +29,12 @@ camera_lineup;
 
 
 %% Take a picture of the playing field, analyse and find all possible words
-maintic = tic;
+
 
 disp('Taking picture...');
 im = acImage(vid); toc(maintic);
+%%
+maintic = tic;
 disp('Done\n');
 disp('Image analysis');
 %-------picture2chars-----------------------------------------------
@@ -54,7 +56,6 @@ disp(['Letters: ' chars '\n']);
 disp(['Bonus tokens: ' bonus '\n']);
 
 chars = char(chars);
-toc; disp('\n');
 %--------------------------------------------------------------------
 
 
@@ -72,7 +73,7 @@ uscores = scores(uindex);
 [scores index] = sort(uscores, 'descend');
 paths = upaths(index);
 words = uwords(index);
-
+toc(maintic)
 
 %%
 %TODO: take all words
