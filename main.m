@@ -40,6 +40,8 @@ fprintf('Taking picture...');
 im = acImage(vid);
 disp('Done');
 %%
+
+maintic = tic;
 disp('Image analysis');
 
 fprintf('    Extracting screen...');

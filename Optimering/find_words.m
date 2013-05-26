@@ -31,7 +31,6 @@ edof = [3  2  5  6  0  0  0  0  0
         3  11 12 15 0  0  0  0  0];
 
 
-
 words = {};
 paths = {};
 for i = 1:length(letters)
