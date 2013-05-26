@@ -1,8 +1,14 @@
 %% Clean
+
+try
+    COM_CloseNXT(handle);
+end
 close all
 clear all
 
 %% Import
+
+
 addpath('Bildanalys\');
 addpath('Optimering\');
 addpath('Movement\');
@@ -10,7 +16,7 @@ addpath('RWTHMindstormsNXT\');
 addpath('RWTHMindstormsNXT\tools\');
 addpath('libusb-win32-bin-1.2.6.0\');
 
-COM_CloseNXT all
+COM_CloseNXT('all')
 
 load alphabet_features;
 load dictionary;
@@ -29,38 +35,40 @@ camera_lineup;
 
 
 %% Take a picture of the playing field, analyse and find all possible words
-
-
-disp('Taking picture...');
-im = acImage(vid); toc(maintic);
-%%
 maintic = tic;
-disp('Done\n');
+fprintf('Taking picture...');
+im = acImage(vid);
+disp('Done');
+%%
 disp('Image analysis');
-%-------picture2chars-----------------------------------------------
-disp('    Extracting screen...');
+
+fprintf('    Extracting screen...');
 screen = extract_screen(im);
-disp('Done\n');
-disp('    Extracting letter images...');
+disp('Done');
+
+%-------picture2chars-----------------------------------------------
+
+fprintf('    Extracting letter images...');
 letters = extract_letters(screen);
 chars = zeros(1,length(letters));
 bonus = cell(1,length(letters));
-disp('Done\n');
-disp('    Identifying letters...');
+disp('Done');
+fprintf('    Identifying letters...');
 for i = 1:length(chars)
     chars(i) = identify_letter(letters{i}, alphabet_features);
     bonus{i} = identify_bonus(letters{i});
 end
-disp('Done\n');
-disp(['Letters: ' chars '\n']);
-disp(['Bonus tokens: ' bonus '\n']);
+disp('Done');
 
 chars = char(chars);
+disp(reshape(bonus,[4 4])');
+disp(reshape(chars,[4 4])');
+toc(maintic); 
 %--------------------------------------------------------------------
 
+%%%
 
-
-[scores words paths] = scores_from_scratch(letters, bonus);
+[scores words paths] = scores_from_scratch(char(chars), bonus, dictionary);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
 words = words(index);
@@ -85,10 +93,10 @@ data = negY.ReadFromNXT();
 backlashy(abs(data.Position) - dist);
 negY.ResetPosition();
 
-letters
+chars
 Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)
-    if toc(maintoc) > 20
+    if toc(maintic) > 120
         break;
     end
     Push;

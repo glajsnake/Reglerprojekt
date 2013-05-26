@@ -41,7 +41,7 @@ for i = 1:length(letters)
 end
 
  s=cellfun(@size,words,'uniform',false);
-[trash is]=sortrows(cat(1,s{:}),-[1 2]);
+[~, is]=sortrows(cat(1,s{:}),-[1 2]);
 words = words(is);
 paths = paths(is);
 

@@ -16,5 +16,4 @@ for i = 1:length(chars)
 end
 
 chars = char(chars);
-toc; disp('\n');
 end
