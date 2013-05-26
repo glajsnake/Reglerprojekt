@@ -1,12 +1,6 @@
-function [scores words paths] = scores_from_scratch(letters, bonus_tokens)
+function [scores words paths] = scores_from_scratch(letters, bonus_tokens, dictionary)
 %% Scores from scratch
 % returns a sorted vector of the word scores.
-
-
-if ~exist('dictionary','var')
-    load dictionary.mat
-end
-
 
 [words paths] = find_words(letters, dictionary);
 tic

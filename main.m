@@ -41,6 +41,7 @@ fprintf('Taking picture...');
 im = acImage(vid);
 disp('Done');
 %%
+
 maintic = tic;
 
 disp('Image analysis');
@@ -63,17 +64,15 @@ for i = 1:length(chars)
     bonus{i} = identify_bonus(letters{i});
 end
 disp('Done');
-fprintf(['Letters: ' chars '\n']);
+
 disp(reshape(bonus,[4 4])');
-
-
-chars = char(chars);
+disp(reshape(chars,[4 4])');
 toc(maintic); 
 %--------------------------------------------------------------------
 
-%%
+%%%
 
-[scores words paths] = scores_from_scratch(chars, bonus);
+[scores words paths] = scores_from_scratch(char(chars), bonus, dictionary);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
 words = words(index);
@@ -86,7 +85,7 @@ uscores = scores(uindex);
 [scores index] = sort(uscores, 'descend');
 paths = upaths(index);
 words = uwords(index);
-
+toc(maintic)
 
 %%
 %TODO: take all words

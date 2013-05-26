@@ -1,14 +1,14 @@
-function letters = extract_letters(im, rect)
+function letters = extract_letters(screen, rect)
 %EXTRACT_LETTERS returns the letters on the Ruzzle playing screen
 %im - image of the playing field
 %rect - optional, if the picture contains more than the playing field rect
 %specifies the part that is the playing screen. rect = [row_start col_start height width]
 
 if nargin == 2
-    im = im(rect(1):rect(1)+rect(3), rect(2):rect(2)+rect(4),:);
+    screen = screen(rect(1):rect(1)+rect(3), rect(2):rect(2)+rect(4),:);
 end
 
-img = mean(im, 3);
+img = mean(screen, 3);
 
 peak = peakfinder(hist(img(:),255));
 
@@ -35,7 +35,7 @@ for c = 1:4
         corner = [max(nrow), max(ncol)];
         
         %segment image
-        letters{r + (c-1)*4} = im( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
+        letters{r + (c-1)*4} = screen( max(1,round(corner(1)-0.2*rect_trimmed(3))):corner(1) , ...
                                    max(1,round(corner(2)-0.2*rect_trimmed(4))):corner(2) , :);
 
     end
