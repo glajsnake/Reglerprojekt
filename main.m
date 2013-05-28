@@ -19,7 +19,9 @@ addpath('libusb-win32-bin-1.2.6.0\');
 COM_CloseNXT('all')
 
 load alphabet_features;
+tic;
 load dictionary;
+toc;
 
 %% Activate NXT and declare motors
 Prepare;
@@ -35,13 +37,13 @@ camera_lineup;
 
 
 %% Take a picture of the playing field, analyse and find all possible words
-maintic = tic;
+
 fprintf('Taking picture...');
 im = acImage(vid);
 disp('Done');
 %%
+maintic = tic;
 disp('Image analysis');
-
 fprintf('    Extracting screen...');
 screen = extract_screen(im);
 disp('Done');
