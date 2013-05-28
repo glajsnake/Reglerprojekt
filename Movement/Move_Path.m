@@ -1,5 +1,3 @@
-%MOVE_TOFROM moves the pen from start to finish
-% intended use is for moving the pen between words
 function Move_Path(motors, path)
 %find coordinate
 positions = reshape(1:16,[4 4])';
@@ -13,6 +11,7 @@ for i = 1:(length(path)-1)
     
     dx = fx-sx;
     dy = fy-sy;
+    
     if dx == lastdx && dy == lastdy
         move_distance = move_distance +1;
     else
@@ -24,3 +23,4 @@ for i = 1:(length(path)-1)
     
     
 end
+Move(motors,lastdx * move_distance, lastdy * move_distance);

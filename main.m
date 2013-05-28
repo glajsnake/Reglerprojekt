@@ -41,6 +41,7 @@ camera_lineup;
 maintic = tic;
 fprintf('Taking picture...');
 im = acImage(vid);
+%im = imread('Bildanalys\myfirstimage6.jpg');
 disp('Done');
 
 
@@ -86,21 +87,25 @@ paths = upaths(index);
 words = uwords(index);
 toc(maintic)
 
+directions = optipaths(paths);
+
 %% take all words
 to44;
 
 Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)
-    if toc(maintic) > 60 && ~halfwayreset
-        %to44;
-        %Move_Path(motors, [16 paths{i}(1)]);
-        %halfwayreset = 1;
-    end
+%     if toc(maintic) > 60 && ~halfwayreset
+%         %to44;
+%         %Move_Path(motors, [16 paths{i}(1)]);
+%         %halfwayreset = 1;
+%     end
     if toc(maintic) > 120 %120
         break;
     end
     Push;
-    Move_Path(motors, paths{i});
+    for j = 1:size(directions{i},2)
+        Move(motors, directions{i}(1,j), directions{i}(2,j));
+    end
     Lift;
     Move_Path(motors, [paths{i}(end) paths{i+1}(1)]); 
 end
