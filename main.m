@@ -38,11 +38,13 @@ camera_lineup;
 
 %% Take a picture of the playing field, analyse and find all possible words
 
+maintic = tic;
 fprintf('Taking picture...');
 im = acImage(vid);
 disp('Done');
-%%
-maintic = tic;
+
+
+
 disp('Image analysis');
 fprintf('    Extracting screen...');
 screen = extract_screen(im);
@@ -68,7 +70,7 @@ disp(reshape(chars,[4 4])');
 toc(maintic); 
 %--------------------------------------------------------------------
 
-%%%
+%%
 
 [scores words paths] = scores_from_scratch(char(chars), bonus, dictionary);
 [scores index] = sort(scores, 'descend');
@@ -85,8 +87,7 @@ paths = upaths(index);
 words = uwords(index);
 toc(maintic)
 
-%%
-%TODO: take all words
+%% take all words
 dist = 93;
 negY.TachoLimit = dist;
 negY.SendToNXT();
