@@ -1,3 +1,6 @@
+try
+    COM_CloseNXT(handle);
+end
 close all
 clear all
 COM_CloseNXT all
@@ -5,19 +8,11 @@ COM_CloseNXT all
 load startxy;
 
 Prepare
-StartPos
 
-negY.WaitFor();
-
-dist = 100;
-negY.TachoLimit = dist;
-negY.SendToNXT();
-negY.WaitFor();
+to44;
+%to44;
 
 
-data = negY.ReadFromNXT();
-backlashy(abs(data.Position) - dist)
-negY.ResetPosition();
 
 
 

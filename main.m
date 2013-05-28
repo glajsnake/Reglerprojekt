@@ -70,11 +70,10 @@ toc(maintic);
 
 %%%
 
-[scores words paths] = scores_from_scratch(char(chars), bonus, dictionary);
+[scores words paths] = weighted_scores_from_scratch(char(chars), bonus, dictionary);
 [scores index] = sort(scores, 'descend');
 paths = paths(index);
 words = words(index);
-
 
 [uwords uindex]= unique(words,'first');
 upaths = paths(uindex);
@@ -87,18 +86,18 @@ toc(maintic)
 
 %%
 %TODO: take all words
-dist = 93;
-negY.TachoLimit = dist;
-negY.SendToNXT();
-negY.WaitFor();
-data = negY.ReadFromNXT();
-backlashy(abs(data.Position) - dist);
-negY.ResetPosition();
+to44;
 
-chars
+halfwayreset = 0;
+
 Move_Path(motors, [16 paths{1}(1)]);
 for i = 1:length(paths)
-    if toc(maintic) > 120
+    if toc(maintic) > 60 && ~halfwayreset
+        %to44;
+        %Move_Path(motors, [16 paths{i}(1)]);
+        %halfwayreset = 1;
+    end
+    if toc(maintic) > 120 %120
         break;
     end
     Push;

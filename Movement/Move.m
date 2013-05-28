@@ -3,18 +3,22 @@ persistent lastx;
 persistent lasty;
 
 
-horiStandard = 48;
+horiStandard = 51;
 vertiStandard = 40;
 RunX = 0;
 RunY = 0;
 doX = 1;
 doY = 1;
 
+%Rekord vid x 30, y -8
+backy = 20;
+backx = -8;
+
 
 if dx>0       
     distx = horiStandard*dx-backlashx;
     if lastx < 0
-        distx = distx + 0;
+        distx = distx + backx;
     end
     lastx = 1;
     
@@ -24,7 +28,7 @@ if dx>0
 elseif dx<0
     distx = horiStandard*(-dx)+backlashx;
     if lastx > 0
-        distx = distx + 0;
+        distx = distx + backx;
     end
     lastx = -1;
     
@@ -37,7 +41,7 @@ end
 if dy>0
     disty = vertiStandard*dy-backlashy;
     if lasty < 0
-        disty = disty + 7;
+        disty = disty + backy;
     end
     lasty = 1;
     motors(2).TachoLimit = disty;
@@ -45,7 +49,7 @@ if dy>0
 elseif dy<0
     disty = vertiStandard*(-dy)+backlashy;
     if lasty > 0
-        disty = disty + 7;
+        disty = disty + backy;
     end
     lasty = -1;
     motors(1).TachoLimit = disty;
